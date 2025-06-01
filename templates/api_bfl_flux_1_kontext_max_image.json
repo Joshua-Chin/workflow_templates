@@ -1,8 +1,8 @@
 {
   "id": "81ccfe3e-3540-49e3-88ae-4fde173b8c87",
   "revision": 0,
-  "last_node_id": 89,
-  "last_link_id": 172,
+  "last_node_id": 95,
+  "last_link_id": 180,
   "nodes": [
     {
       "id": 86,
@@ -77,11 +77,11 @@
       "bgcolor": "#653"
     },
     {
-      "id": 84,
+      "id": 90,
       "type": "LoadImage",
       "pos": [
-        64.27711486816406,
-        928.7723999023438
+        69.70362091064453,
+        1295.0821533203125
       ],
       "size": [
         274.080078125,
@@ -89,14 +89,14 @@
       ],
       "flags": {},
       "order": 3,
-      "mode": 0,
+      "mode": 4,
       "inputs": [],
       "outputs": [
         {
           "name": "IMAGE",
           "type": "IMAGE",
           "links": [
-            171
+            175
           ]
         },
         {
@@ -109,30 +109,95 @@
         "Node name for S&R": "LoadImage"
       },
       "widgets_values": [
-        "input-2.png",
+        "girl1.png",
         "image"
       ]
     },
     {
-      "id": 89,
-      "type": "FluxKontextMaxImageNode",
+      "id": 93,
+      "type": "MarkdownNote",
       "pos": [
-        357.9402160644531,
-        936.04345703125
+        377.550537109375,
+        1304.835205078125
       ],
       "size": [
-        412.510009765625,
-        342.5639953613281
+        281.59576416015625,
+        202.95529174804688
       ],
       "flags": {},
       "order": 4,
       "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "If you need to input multiple images, you can set the mode of this \"load image\" node to Always. Of course, you can also combine more images together.\n\n---\n\n如果你需要使用多张图像输入，可以将这个 load image 节点的 **模式** 设置为 **总是(Always)** 当然你可以可以拼合更多图像在一起"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 84,
+      "type": "LoadImage",
+      "pos": [
+        64.27711486816406,
+        928.7723999023438
+      ],
+      "size": [
+        274.080078125,
+        314
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            174
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "style_ref.png",
+        "image"
+      ]
+    },
+    {
+      "id": 91,
+      "type": "ImageStitch",
+      "pos": [
+        384.0186462402344,
+        932.8209838867188
+      ],
+      "size": [
+        270,
+        150
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
       "inputs": [
         {
-          "name": "input_image",
+          "name": "image1",
+          "type": "IMAGE",
+          "link": 174
+        },
+        {
+          "name": "image2",
           "shape": 7,
           "type": "IMAGE",
-          "link": 171
+          "link": 175
         }
       ],
       "outputs": [
@@ -140,7 +205,48 @@
           "name": "IMAGE",
           "type": "IMAGE",
           "links": [
-            172
+            179
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageStitch"
+      },
+      "widgets_values": [
+        "right",
+        true,
+        8,
+        "white"
+      ]
+    },
+    {
+      "id": 95,
+      "type": "FluxKontextMaxImageNode",
+      "pos": [
+        682.624755859375,
+        935.3181762695312
+      ],
+      "size": [
+        412.510009765625,
+        342.5639953613281
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "input_image",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 179
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            180
           ]
         }
       ],
@@ -154,8 +260,7 @@
         50,
         1044116463319391,
         "randomize",
-        false,
-        "Result URL: https://delivery-eu1.bfl.ai/results/aa2e2d9981354375888e48a399107e28/sample.png?se=2025-05-29T11%3A10%3A23Z&sp=r&sv=2024-11-04&sr=b&rsct=image/png&sig=/g%2BlfCrv1N6wjLhwk0dri3rCMy1mXRS6UkdsAuxgw/8%3D"
+        false
       ],
       "color": "#432",
       "bgcolor": "#653"
@@ -164,21 +269,21 @@
       "id": 85,
       "type": "SaveImage",
       "pos": [
-        790.2785034179688,
-        935.7886352539062
+        1127.7618408203125,
+        938.6339721679688
       ],
       "size": [
         270,
         270
       ],
       "flags": {},
-      "order": 5,
+      "order": 8,
       "mode": 0,
       "inputs": [
         {
           "name": "images",
           "type": "IMAGE",
-          "link": 172
+          "link": 180
         }
       ],
       "outputs": [],
@@ -190,16 +295,32 @@
   ],
   "links": [
     [
-      171,
+      174,
       84,
       0,
-      89,
+      91,
       0,
       "IMAGE"
     ],
     [
-      172,
-      89,
+      175,
+      90,
+      0,
+      91,
+      1,
+      "IMAGE"
+    ],
+    [
+      179,
+      91,
+      0,
+      95,
+      0,
+      "IMAGE"
+    ],
+    [
+      180,
+      95,
       0,
       85,
       0,
@@ -210,10 +331,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.7646251029937563,
+      "scale": 0.8410876132931315,
       "offset": [
-        532.9511513677878,
-        -496.4261785235267
+        301.43791375164005,
+        -627.078281784408
       ]
     },
     "frontendVersion": "1.21.0"

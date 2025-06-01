@@ -397,6 +397,14 @@
     "type": "image",
     "templates": [
       {
+        "name": "api_bfl_flux_1_kontext_multiple_images_input",
+        "title": "BFL Flux.1 Kontext Multiple Image Input",
+        "description": "Input multiple images and edit them with Flux.1 Kontext.",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "thumbnailVariant": "compareSlider",
+      },
+      {
         "name": "api_bfl_flux_1_kontext_pro_image",
         "title": "BFL Flux.1 Kontext Pro",
         "description": "Edit images with Flux.1 Kontext pro image.",

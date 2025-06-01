@@ -1,8 +1,8 @@
 {
   "id": "81ccfe3e-3540-49e3-88ae-4fde173b8c87",
   "revision": 0,
-  "last_node_id": 88,
-  "last_link_id": 169,
+  "last_node_id": 94,
+  "last_link_id": 177,
   "nodes": [
     {
       "id": 86,
@@ -29,70 +29,6 @@
       "bgcolor": "#653"
     },
     {
-      "id": 84,
-      "type": "LoadImage",
-      "pos": [
-        64.27711486816406,
-        928.7723999023438
-      ],
-      "size": [
-        274.080078125,
-        314
-      ],
-      "flags": {},
-      "order": 1,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            168
-          ]
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": null
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LoadImage"
-      },
-      "widgets_values": [
-        "girl1.png",
-        "image"
-      ]
-    },
-    {
-      "id": 85,
-      "type": "SaveImage",
-      "pos": [
-        778.2413330078125,
-        928.3619384765625
-      ],
-      "size": [
-        270,
-        270
-      ],
-      "flags": {},
-      "order": 5,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 169
-        }
-      ],
-      "outputs": [],
-      "properties": {},
-      "widgets_values": [
-        "ComfyUI"
-      ]
-    },
-    {
       "id": 87,
       "type": "MarkdownNote",
       "pos": [
@@ -104,7 +40,7 @@
         279.697265625
       ],
       "flags": {},
-      "order": 2,
+      "order": 1,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -128,7 +64,7 @@
         273.2510070800781
       ],
       "flags": {},
-      "order": 3,
+      "order": 2,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -141,25 +77,195 @@
       "bgcolor": "#653"
     },
     {
+      "id": 90,
+      "type": "LoadImage",
+      "pos": [
+        69.70362091064453,
+        1295.0821533203125
+      ],
+      "size": [
+        274.080078125,
+        314
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 4,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            175
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "girl1.png",
+        "image"
+      ]
+    },
+    {
+      "id": 93,
+      "type": "MarkdownNote",
+      "pos": [
+        377.550537109375,
+        1304.835205078125
+      ],
+      "size": [
+        281.59576416015625,
+        202.95529174804688
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "If you need to input multiple images, you can set the mode of this \"load image\" node to Always. Of course, you can also combine more images together.\n\n---\n\n如果你需要使用多张图像输入，可以将这个 load image 节点的 **模式** 设置为 **总是(Always)** 当然你可以可以拼合更多图像在一起"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 91,
+      "type": "ImageStitch",
+      "pos": [
+        384.0186462402344,
+        932.8209838867188
+      ],
+      "size": [
+        270,
+        150
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "image1",
+          "type": "IMAGE",
+          "link": 174
+        },
+        {
+          "name": "image2",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": 175
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            176
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ImageStitch"
+      },
+      "widgets_values": [
+        "right",
+        true,
+        8,
+        "white"
+      ]
+    },
+    {
+      "id": 84,
+      "type": "LoadImage",
+      "pos": [
+        64.27711486816406,
+        928.7723999023438
+      ],
+      "size": [
+        274.080078125,
+        314
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            174
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "girl.webp",
+        "image"
+      ]
+    },
+    {
+      "id": 85,
+      "type": "SaveImage",
+      "pos": [
+        1110,
+        930
+      ],
+      "size": [
+        270,
+        270
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 169
+        }
+      ],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "ComfyUI"
+      ]
+    },
+    {
       "id": 83,
       "type": "FluxKontextProImageNode",
       "pos": [
-        358.4253234863281,
-        928.2939453125
+        690,
+        930
       ],
       "size": [
         395.2944030761719,
         323.6419372558594
       ],
       "flags": {},
-      "order": 4,
+      "order": 7,
       "mode": 0,
       "inputs": [
         {
           "name": "input_image",
           "shape": 7,
           "type": "IMAGE",
-          "link": 168
+          "link": 176
         }
       ],
       "outputs": [
@@ -179,7 +285,7 @@
         "1:1",
         3,
         50,
-        300619098965942,
+        1022368309905935,
         "randomize",
         false
       ],
@@ -189,18 +295,34 @@
   ],
   "links": [
     [
-      168,
-      84,
-      0,
-      83,
-      0,
-      "IMAGE"
-    ],
-    [
       169,
       83,
       0,
       85,
+      0,
+      "IMAGE"
+    ],
+    [
+      174,
+      84,
+      0,
+      91,
+      0,
+      "IMAGE"
+    ],
+    [
+      175,
+      90,
+      0,
+      91,
+      1,
+      "IMAGE"
+    ],
+    [
+      176,
+      91,
+      0,
+      83,
       0,
       "IMAGE"
     ]
@@ -209,10 +331,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.8410876132931314,
+      "scale": 0.9251963746224448,
       "offset": [
-        625.963777366936,
-        -764.3468650506845
+        220.9802241705954,
+        -678.0290149636223
       ]
     },
     "frontendVersion": "1.21.0"
