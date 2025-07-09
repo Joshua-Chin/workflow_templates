@@ -880,7 +880,7 @@
         "mediaType": "image",
         "mediaSubtype": "webp",
         "description": "Upscale images by enhancing quality in latent space.",
-        "thumbnailVariant": "zoomHover",
+        "thumbnailVariant": "compareSlider",
         "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/2_pass_txt2img/"
       },
       {
@@ -975,14 +975,6 @@
         "mediaType": "image",
         "mediaSubtype": "webp",
         "description": "Generate images by controlling composition with defined areas.",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/area_composition/"
-      },
-      {
-        "name": "area_composition_reversed",
-        "title": "Area Composition Reversed",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "Generate images using reverse area composition workflow.",
         "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/area_composition/"
       },
       {
