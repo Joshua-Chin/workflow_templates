@@ -341,30 +341,6 @@
       "bgcolor": "#653"
     },
     {
-      "id": 51,
-      "type": "MarkdownNote",
-      "pos": [
-        -870,
-        110
-      ],
-      "size": [
-        520,
-        190
-      ],
-      "flags": {},
-      "order": 5,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "VRAM Usage",
-      "properties": {},
-      "widgets_values": [
-        "The original version of the model will be around 47GB, so users with low VRAM will not be able to run it. You can wait for the community to make the fp8 or GGUF version.\n\nThe default **weight_dtype** is set to **fp8_e4m3fn_fast** to make the first use easier.\n\nIf you have enough VRAM, such as an **RTX 4090 with 24GB**, you can set **weight_dtype** to **default** for better quality.\n\nFor reference, data generated at 1024*1024 resolution on a 4090 24GB:\n- Weight_dtype: default\n- VRAM usage: 96%\n- 1st Gen: 90s\n- 2nd Gen: 40s"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
       "id": 31,
       "type": "KSampler",
       "pos": [
@@ -424,6 +400,30 @@
         "simple",
         1
       ]
+    },
+    {
+      "id": 51,
+      "type": "MarkdownNote",
+      "pos": [
+        -870,
+        110
+      ],
+      "size": [
+        520,
+        190
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "VRAM Usage",
+      "properties": {},
+      "widgets_values": [
+        "The original version of the model will be around 23GB, so users with low VRAM will not be able to run it. You can wait for the community to make the fp8 or GGUF version.\n\nThe default **weight_dtype** is set to **fp8_e4m3fn_fast** to make the first use easier.\n\nIf you have enough VRAM, such as an **RTX 4090 with 24GB**, you can set **weight_dtype** to **default** for better quality.\n\nFor reference, data generated at 1024*1024 resolution on a 4090 24GB:\n- Weight_dtype: default\n- VRAM usage: 96%\n- 1st Gen: 90s\n- 2nd Gen: 40s"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
     }
   ],
   "links": [
@@ -544,10 +544,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 1.2884080000000375,
+      "scale": 0.9680000000000282,
       "offset": [
-        982.9730735496678,
-        -140.5450006394394
+        1135.2053798430204,
+        124.26199254544966
       ]
     },
     "frontendVersion": "1.25.2",
