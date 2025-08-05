@@ -531,29 +531,6 @@
       ]
     },
     {
-      "id": 70,
-      "type": "Note",
-      "pos": [
-        850,
-        430
-      ],
-      "size": [
-        300,
-        120
-      ],
-      "flags": {},
-      "order": 7,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "properties": {},
-      "widgets_values": [
-        "Set cfg to 1.0 for a speed boost at the cost of consistency.\n\nThe official number of steps is 50 but I think that's too much. Even just 10 steps seems to work."
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
       "id": 8,
       "type": "VAEDecode",
       "pos": [
@@ -605,6 +582,29 @@
         "widget_ue_connectable": {}
       },
       "widgets_values": []
+    },
+    {
+      "id": 70,
+      "type": "Note",
+      "pos": [
+        850,
+        430
+      ],
+      "size": [
+        300,
+        120
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {},
+      "widgets_values": [
+        "Set cfg to 1.0 for a speed boost at the cost of consistency. Samplers like res_multistep work pretty well at cfg 1.0\n\nThe official number of steps is 50 but I think that's too much. Even just 10 steps seems to work."
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
     }
   ],
   "links": [
@@ -733,10 +733,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.6303940863128554,
+      "scale": 0.7627768444385553,
       "offset": [
-        909.9748480409257,
-        495.71532173986157
+        511.3351769654992,
+        265.80199174981243
       ]
     },
     "frontendVersion": "1.23.4",
