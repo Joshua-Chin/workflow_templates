@@ -30,9 +30,9 @@
         }
       ],
       "properties": {
-        "Node name for S&R": "VAELoader",
         "cnr_id": "comfy-core",
         "ver": "0.3.48",
+        "Node name for S&R": "VAELoader",
         "models": [
           {
             "name": "qwen_image_vae.safetensors",
@@ -80,9 +80,9 @@
         }
       ],
       "properties": {
-        "Node name for S&R": "CLIPLoader",
         "cnr_id": "comfy-core",
         "ver": "0.3.48",
+        "Node name for S&R": "CLIPLoader",
         "models": [
           {
             "name": "qwen_2.5_vl_7b_fp8_scaled.safetensors",
@@ -130,9 +130,9 @@
         }
       ],
       "properties": {
-        "Node name for S&R": "EmptySD3LatentImage",
         "cnr_id": "comfy-core",
         "ver": "0.3.48",
+        "Node name for S&R": "EmptySD3LatentImage",
         "enableTabs": false,
         "tabWidth": 65,
         "tabXOffset": 10,
@@ -181,9 +181,9 @@
       ],
       "title": "CLIP Text Encode (Positive Prompt)",
       "properties": {
-        "Node name for S&R": "CLIPTextEncode",
         "cnr_id": "comfy-core",
         "ver": "0.3.48",
+        "Node name for S&R": "CLIPTextEncode",
         "enableTabs": false,
         "tabWidth": 65,
         "tabXOffset": 10,
@@ -232,9 +232,9 @@
       ],
       "title": "CLIP Text Encode (Negative Prompt)",
       "properties": {
-        "Node name for S&R": "CLIPTextEncode",
         "cnr_id": "comfy-core",
         "ver": "0.3.48",
+        "Node name for S&R": "CLIPTextEncode",
         "enableTabs": false,
         "tabWidth": 65,
         "tabXOffset": 10,
@@ -273,9 +273,9 @@
       ],
       "outputs": [],
       "properties": {
-        "Node name for S&R": "SaveImage",
         "cnr_id": "comfy-core",
         "ver": "0.3.48",
+        "Node name for S&R": "SaveImage",
         "enableTabs": false,
         "tabWidth": 65,
         "tabXOffset": 10,
@@ -288,30 +288,6 @@
       "widgets_values": [
         "ComfyUI"
       ]
-    },
-    {
-      "id": 70,
-      "type": "Note",
-      "pos": [
-        850,
-        430
-      ],
-      "size": [
-        300,
-        120
-      ],
-      "flags": {},
-      "order": 3,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "For fp8 without 8steps LoRA",
-      "properties": {},
-      "widgets_values": [
-        "Set cfg to 1.0 for a speed boost at the cost of consistency. Samplers like res_multistep work pretty well at cfg 1.0\n\nThe official number of steps is 50 but I think that's too much. Even just 10 steps seems to work."
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
     },
     {
       "id": 66,
@@ -344,9 +320,9 @@
         }
       ],
       "properties": {
-        "Node name for S&R": "ModelSamplingAuraFlow",
         "cnr_id": "comfy-core",
         "ver": "0.3.48",
+        "Node name for S&R": "ModelSamplingAuraFlow",
         "enableTabs": false,
         "tabWidth": 65,
         "tabXOffset": 10,
@@ -391,9 +367,9 @@
         }
       ],
       "properties": {
-        "Node name for S&R": "LoraLoaderModelOnly",
         "cnr_id": "comfy-core",
         "ver": "0.3.49",
+        "Node name for S&R": "LoraLoaderModelOnly",
         "models": [
           {
             "name": "Qwen-Image-Lightning-8steps-V1.0.safetensors",
@@ -419,7 +395,7 @@
         180
       ],
       "flags": {},
-      "order": 4,
+      "order": 3,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -445,7 +421,7 @@
         88
       ],
       "flags": {},
-      "order": 5,
+      "order": 4,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -495,9 +471,9 @@
         }
       ],
       "properties": {
-        "Node name for S&R": "VAEDecode",
         "cnr_id": "comfy-core",
         "ver": "0.3.48",
+        "Node name for S&R": "VAEDecode",
         "enableTabs": false,
         "tabWidth": 65,
         "tabXOffset": 10,
@@ -518,7 +494,7 @@
       ],
       "size": [
         300,
-        262
+        474
       ],
       "flags": {},
       "order": 13,
@@ -556,9 +532,9 @@
         }
       ],
       "properties": {
-        "Node name for S&R": "KSampler",
         "cnr_id": "comfy-core",
         "ver": "0.3.48",
+        "Node name for S&R": "KSampler",
         "enableTabs": false,
         "tabWidth": 65,
         "tabXOffset": 10,
@@ -590,7 +566,7 @@
         90
       ],
       "flags": {},
-      "order": 6,
+      "order": 5,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -604,9 +580,9 @@
         }
       ],
       "properties": {
-        "Node name for S&R": "UNETLoader",
         "cnr_id": "comfy-core",
         "ver": "0.3.48",
+        "Node name for S&R": "UNETLoader",
         "models": [
           {
             "name": "qwen_image_fp8_e4m3fn.safetensors",
@@ -640,7 +616,7 @@
         630
       ],
       "flags": {},
-      "order": 7,
+      "order": 6,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -659,14 +635,14 @@
       "type": "MarkdownNote",
       "pos": [
         850,
-        600
+        660
       ],
       "size": [
         310,
-        190
+        210
       ],
       "flags": {},
-      "order": 8,
+      "order": 7,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -674,6 +650,30 @@
       "properties": {},
       "widgets_values": [
         "You can test and find the best setting by yourself. The following table is for reference.\n\n| model            | steps | cfg |\n|---------------------|---------------|---------------|\n| fp8_e4m3fn（Qwen team's suggestion）             | 40                | 2.5               \n| fp8_e4m3fn             | 20                | 2.5               |\n| fp8_e4m3fn + 8steps LoRA    | 8               | 2.5               |\n| distill fp8_e4m3fn   | 10               | 1.0              |"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 70,
+      "type": "Note",
+      "pos": [
+        850,
+        910
+      ],
+      "size": [
+        310,
+        120
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "For fp8 without 8steps LoRA",
+      "properties": {},
+      "widgets_values": [
+        "Set cfg to 1.0 for a speed boost at the cost of consistency. Samplers like res_multistep work pretty well at cfg 1.0\n\nThe official number of steps is 50 but I think that's too much. Even just 10 steps seems to work."
       ],
       "color": "#432",
       "bgcolor": "#653"
@@ -826,13 +826,13 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.5209868481924539,
+      "scale": 0.6303940863128694,
       "offset": [
-        1164.5682490430127,
-        480.8451480341405
+        1080.7704636873548,
+        462.84601172702344
       ]
     },
-    "frontendVersion": "1.26.0",
+    "frontendVersion": "1.24.4",
     "ue_links": [],
     "links_added_by_ue": [],
     "VHS_latentpreview": false,

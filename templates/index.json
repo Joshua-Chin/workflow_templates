@@ -523,7 +523,7 @@
         "description": "Generate videos from start and end frames using Wan 2.2 Fun Inp.",
         "mediaType": "image",
         "mediaSubtype": "webp",
-        "tutorialUrl": "https://docs.comfy.org/tutorials/video/wan/wan2_2",
+        "tutorialUrl": "https://docs.comfy.org/tutorials/video/wan/wan2-2-fun-inp",
         "tags": ["FLF2V", "Video"],
         "models": ["Wan2.2"],
         "date": "2025-08-12"
@@ -534,10 +534,21 @@
         "description": "Generate videos guided by pose, depth, and edge controls using Wan 2.2 Fun Control.",
         "mediaType": "image",
         "mediaSubtype": "webp",
-        "tutorialUrl": "https://docs.comfy.org/tutorials/video/wan/wan2_2",
+        "tutorialUrl": "https://docs.comfy.org/tutorials/video/wan/wan2-2-fun-control",
         "tags": ["Video to Video", "Video"],
         "models": ["Wan2.2"],
         "date": "2025-08-12"
+      },
+      {
+        "name": "video_wan2_2_14B_fun_camera",
+        "title": "Wan 2.2 14B Fun Camera Control",
+        "description": "Generate videos with camera motion controls including pan, zoom, and rotation using Wan 2.2 Fun Camera Control.",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "tutorialUrl": "https://docs.comfy.org/tutorials/video/wan/wan2-2-fun-camera",
+        "tags": ["Video to Video", "Video"],
+        "models": ["Wan2.2"],
+        "date": "2025-08-17"
       },
       {
         "name": "video_wan2_2_5B_ti2v",
