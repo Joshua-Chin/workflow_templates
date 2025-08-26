@@ -200,7 +200,14 @@
       "properties": {
         "Node name for S&R": "ControlNetLoader",
         "cnr_id": "comfy-core",
-        "ver": "0.3.51"
+        "ver": "0.3.51",
+        "models": [
+          {
+            "name": "Qwen-Image-InstantX-ControlNet-Union.safetensors",
+            "url": "https://huggingface.co/Comfy-Org/Qwen-Image-InstantX-ControlNets/resolve/main/split_files/controlnet/Qwen-Image-InstantX-ControlNet-Union.safetensors",
+            "directory": "controlnet"
+          }
+        ]
       },
       "widgets_values": [
         "Qwen-Image-InstantX-ControlNet-Union.safetensors"
@@ -869,30 +876,6 @@
       ]
     },
     {
-      "id": 105,
-      "type": "MarkdownNote",
-      "pos": [
-        -680,
-        630
-      ],
-      "size": [
-        520,
-        250
-      ],
-      "flags": {},
-      "order": 10,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Lotus Depth",
-      "properties": {},
-      "widgets_values": [
-        "**Diffusion Model**\n\nDownload [lotus-depth-d-v1-1.safetensors](https://huggingface.co/Comfy-Org/lotus/resolve/main/lotus-depth-d-v1-1.safetensors) \n and place it in **ComfyUI/models/diffusion_models**\n\n**VAE Model**\n\nDownload  [vae-ft-mse-840000-ema-pruned.safetensors](https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors)  and place it in **ComfyUI/models/vae** or you can use any SD1.5 VAE if you prefer.\n\n\n```\nComfyUI/\n├── models/\n│   ├── diffusion_models/\n│   │   └─── lotus-depth-d-v1-1.safetensors\n│   └── vae/\n│       └──  lvae-ft-mse-840000-ema-pruned.safetensors\n```\n\n"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
       "id": 78,
       "type": "MarkdownNote",
       "pos": [
@@ -904,7 +887,7 @@
         630
       ],
       "flags": {},
-      "order": 11,
+      "order": 10,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -913,7 +896,31 @@
         "widget_ue_connectable": {}
       },
       "widgets_values": [
-        "[Tutorial](https://docs.comfy.org/tutorials/image/qwen/qwen-image) | [教程](https://docs.comfy.org/zh-CN/tutorials/image/qwen/qwen-image)\n\n\n## Model links\n\nYou can find all the models on [Huggingface](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/tree/main) or [Modelscope](https://modelscope.cn/models/Comfy-Org/Qwen-Image_ComfyUI/files)\n\n**Diffusion model**\n\n- [qwen_image_fp8_e4m3fn.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_fp8_e4m3fn.safetensors)\n\n**ControlNet**\n\n- [To be updated]\n\n\n**LoRA**\n\n- [Qwen-Image-Lightning-4steps-V1.0.safetensors](https://huggingface.co/lightx2v/Qwen-Image-Lightning/resolve/main/Qwen-Image-Lightning-4steps-V1.0.safetensors)\n\n**Text encoder**\n\n- [qwen_2.5_vl_7b_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors)\n\n**VAE**\n\n- [qwen_image_vae.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors)\n\n\nModel Storage Location\n\n```\n📂 ComfyUI/\n├── 📂 models/\n│   ├── 📂 diffusion_models/\n│   │   ├── qwen_image_fp8_e4m3fn.safetensors\n│   │   └── qwen_image_distill_full_fp8_e4m3fn.safetensors\n│   ├── 📂 loras/\n│   │   └── Qwen-Image-Lightning-8steps-V1.0.safetensors\n│   ├── 📂 Controlnets/ # create one if you can't find it\n│   │   └── Qwen-Image-InstanX-ControlNet-Union.safetensors\n│   ├── 📂 vae/\n│   │   └── qwen_image_vae.safetensors\n│   └── 📂 text_encoders/\n│       └── qwen_2.5_vl_7b_fp8_scaled.safetensors\n```\n"
+        "[Tutorial](https://docs.comfy.org/tutorials/image/qwen/qwen-image) | [教程](https://docs.comfy.org/zh-CN/tutorials/image/qwen/qwen-image)\n\n\n## Model links\n\nYou can find all the models on [Huggingface](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/tree/main) or [Modelscope](https://modelscope.cn/models/Comfy-Org/Qwen-Image_ComfyUI/files)\n\n**Diffusion model**\n\n- [qwen_image_fp8_e4m3fn.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/diffusion_models/qwen_image_fp8_e4m3fn.safetensors)\n\n**ControlNet**\n\n- [Qwen-Image-InstantX-ControlNet-Union.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image-InstantX-ControlNets/resolve/main/split_files/controlnet/Qwen-Image-InstantX-ControlNet-Union.safetensors)\n\n\n**LoRA**\n\n- [Qwen-Image-Lightning-4steps-V1.0.safetensors](https://huggingface.co/lightx2v/Qwen-Image-Lightning/resolve/main/Qwen-Image-Lightning-4steps-V1.0.safetensors)\n\n**Text encoder**\n\n- [qwen_2.5_vl_7b_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/text_encoders/qwen_2.5_vl_7b_fp8_scaled.safetensors)\n\n**VAE**\n\n- [qwen_image_vae.safetensors](https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors)\n\n\nModel Storage Location\n\n```\n📂 ComfyUI/\n├── 📂 models/\n│   ├── 📂 diffusion_models/\n│   │   ├── qwen_image_fp8_e4m3fn.safetensors\n│   │   └── qwen_image_distill_full_fp8_e4m3fn.safetensors\n│   ├── 📂 loras/\n│   │   └── Qwen-Image-Lightning-8steps-V1.0.safetensors\n│   ├── 📂 controlnet/ \n│   │   └── Qwen-Image-InstantX-ControlNet-Union.safetensors\n│   ├── 📂 vae/\n│   │   └── qwen_image_vae.safetensors\n│   └── 📂 text_encoders/\n│       └── qwen_2.5_vl_7b_fp8_scaled.safetensors\n```\n"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 105,
+      "type": "MarkdownNote",
+      "pos": [
+        -680,
+        630
+      ],
+      "size": [
+        530,
+        250
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Lotus Depth",
+      "properties": {},
+      "widgets_values": [
+        "**Diffusion Model**\n\nDownload [lotus-depth-d-v1-1.safetensors](https://huggingface.co/Comfy-Org/lotus/resolve/main/lotus-depth-d-v1-1.safetensors) \n and place it in **ComfyUI/models/diffusion_models**\n\n**VAE Model**\n\nDownload  [vae-ft-mse-840000-ema-pruned.safetensors](https://huggingface.co/stabilityai/sd-vae-ft-mse-original/resolve/main/vae-ft-mse-840000-ema-pruned.safetensors)  and place it in **ComfyUI/models/vae** or you can use any SD1.5 VAE if you prefer.\n\n\n```\nComfyUI/\n├── models/\n│   ├── diffusion_models/\n│   │   └─── lotus-depth-d-v1-1.safetensors\n│   └── vae/\n│       └──  lvae-ft-mse-840000-ema-pruned.safetensors\n```\n\n"
       ],
       "color": "#432",
       "bgcolor": "#653"
@@ -2029,10 +2036,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.8375196975866024,
+      "scale": 0.5720372225849346,
       "offset": [
-        268.7604301901464,
-        -5.075807062726767
+        1037.19040546129,
+        246.15739524821564
       ]
     },
     "frontendVersion": "1.26.6"
