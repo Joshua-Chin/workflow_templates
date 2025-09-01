@@ -1,38 +1,9 @@
 {
   "id": "d2a78457-e57e-448b-a5dc-b1c4edbf74a0",
   "revision": 0,
-  "last_node_id": 29,
-  "last_link_id": 38,
+  "last_node_id": 30,
+  "last_link_id": 39,
   "nodes": [
-    {
-      "id": 3,
-      "type": "PreviewImage",
-      "pos": [
-        140,
-        80
-      ],
-      "size": [
-        390,
-        440
-      ],
-      "flags": {},
-      "order": 10,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 5
-        }
-      ],
-      "outputs": [],
-      "properties": {
-        "Node name for S&R": "PreviewImage",
-        "cnr_id": "comfy-core",
-        "ver": "0.3.52"
-      },
-      "widgets_values": []
-    },
     {
       "id": 11,
       "type": "LoadImage",
@@ -63,9 +34,9 @@
         }
       ],
       "properties": {
-        "Node name for S&R": "LoadImage",
         "cnr_id": "comfy-core",
-        "ver": "0.3.52"
+        "ver": "0.3.52",
+        "Node name for S&R": "LoadImage"
       },
       "widgets_values": [
         "input.png",
@@ -102,9 +73,9 @@
         }
       ],
       "properties": {
-        "Node name for S&R": "LoadImage",
         "cnr_id": "comfy-core",
-        "ver": "0.3.52"
+        "ver": "0.3.52",
+        "Node name for S&R": "LoadImage"
       },
       "widgets_values": [
         "input.png",
@@ -143,9 +114,9 @@
         }
       ],
       "properties": {
-        "Node name for S&R": "GeminiInputFiles",
         "cnr_id": "comfy-core",
-        "ver": "0.3.52"
+        "ver": "0.3.52",
+        "Node name for S&R": "GeminiInputFiles"
       },
       "widgets_values": [
         null
@@ -183,9 +154,9 @@
         }
       ],
       "properties": {
-        "Node name for S&R": "GeminiInputFiles",
         "cnr_id": "comfy-core",
-        "ver": "0.3.52"
+        "ver": "0.3.52",
+        "Node name for S&R": "GeminiInputFiles"
       },
       "widgets_values": [
         null
@@ -297,9 +268,9 @@
         }
       ],
       "properties": {
-        "Node name for S&R": "ImageBatch",
         "cnr_id": "comfy-core",
-        "ver": "0.3.52"
+        "ver": "0.3.52",
+        "Node name for S&R": "ImageBatch"
       },
       "widgets_values": []
     },
@@ -326,11 +297,80 @@
       ],
       "outputs": [],
       "properties": {
-        "Node name for S&R": "PreviewAny",
         "cnr_id": "comfy-core",
-        "ver": "0.3.52"
+        "ver": "0.3.52",
+        "Node name for S&R": "PreviewAny"
       },
       "widgets_values": []
+    },
+    {
+      "id": 2,
+      "type": "LoadImage",
+      "pos": [
+        -660,
+        80
+      ],
+      "size": [
+        340,
+        450
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            38
+          ]
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null
+        }
+      ],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.52",
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "input.png",
+        "image"
+      ]
+    },
+    {
+      "id": 30,
+      "type": "SaveImage",
+      "pos": [
+        140,
+        80
+      ],
+      "size": [
+        390,
+        440
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 39
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.56"
+      },
+      "widgets_values": [
+        "ComfyUI"
+      ]
     },
     {
       "id": 5,
@@ -365,7 +405,7 @@
           "name": "IMAGE",
           "type": "IMAGE",
           "links": [
-            5
+            39
           ]
         },
         {
@@ -377,9 +417,9 @@
         }
       ],
       "properties": {
-        "Node name for S&R": "GeminiImageNode",
         "cnr_id": "comfy-core",
-        "ver": "0.3.52"
+        "ver": "0.3.52",
+        "Node name for S&R": "GeminiImageNode"
       },
       "widgets_values": [
         "A giant yellow balloon in the shape of the letter 'C' floating high above a bustling city street with tall skyscrapers, viewed from street level, with traffic and pedestrians below. The sky is bright blue with some clouds. The architectural style of the buildings is modern and classic New York City",
@@ -389,56 +429,9 @@
       ],
       "color": "#432",
       "bgcolor": "#653"
-    },
-    {
-      "id": 2,
-      "type": "LoadImage",
-      "pos": [
-        -660,
-        80
-      ],
-      "size": [
-        340,
-        450
-      ],
-      "flags": {},
-      "order": 6,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            38
-          ]
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": null
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LoadImage",
-        "cnr_id": "comfy-core",
-        "ver": "0.3.52"
-      },
-      "widgets_values": [
-        "input.png",
-        "image"
-      ]
     }
   ],
   "links": [
-    [
-      5,
-      5,
-      0,
-      3,
-      0,
-      "IMAGE"
-    ],
     [
       6,
       5,
@@ -486,6 +479,14 @@
       5,
       0,
       "IMAGE"
+    ],
+    [
+      39,
+      5,
+      0,
+      30,
+      0,
+      "IMAGE"
     ]
   ],
   "groups": [
@@ -521,11 +522,15 @@
     "ds": {
       "scale": 0.674024663025736,
       "offset": [
-        1742.7594150025407,
-        16.69738838862423
+        1519.1608647307303,
+        210.66400181061425
       ]
     },
-    "frontendVersion": "1.26.6"
+    "frontendVersion": "1.25.11",
+    "VHS_latentpreview": false,
+    "VHS_latentpreviewrate": 0,
+    "VHS_MetadataImage": true,
+    "VHS_KeepIntermediate": true
   },
   "version": 0.4
 }
