@@ -146,6 +146,19 @@
         "size": 16.06
       },
       {
+        "name": "flux1_dev_uso_reference_image_gen",
+        "title": "Flux.1 Dev USO Reference Image Generation",
+        "description": "Use reference images to control both style and subject - keep your character's face while changing artistic style, or apply artistic styles to new scenes",
+        "thumbnailVariant": "hoverDissolve",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "tags": ["Image to Image", "Image"],
+        "models": ["Flux"],
+        "date": "2025-09-02",
+        "tutorialUrl": "https://docs.comfy.org/tutorials/flux/flux-1-uso",
+        "size": 17.32
+      },
+      {
         "name": "flux_schnell",
         "title": "Flux Schnell fp8",
         "mediaType": "image",
@@ -633,10 +646,31 @@
       {
         "name": "video_wan2_2_5B_ti2v",
         "title": "Wan 2.2 5B Video Generation",
-        "description": "Generate videos from text or images using Wan 2.2 5B hybrid model",
+        "description": "Fast text-to-video and image-to-video generation with 5B parameters. Optimized for rapid prototyping and creative exploration.",
         "mediaType": "image",
         "mediaSubtype": "webp",
-        "tutorialUrl": "https://docs.comfy.org/tutorials/video/wan/wan2_2",
+        "tags": ["Text to Video", "Video"],
+        "models": ["Wan2.2"],
+        "date": "2025-07-29",
+        "size": 16.9
+      },
+      {
+        "name": "video_wan2_2_5B_fun_inpaint",
+        "title": "Wan 2.2 5B Fun Inpaint",
+        "description": "Efficient video inpainting from start and end frames. 5B model delivers quick iterations for testing workflows.",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "tags": ["Text to Video", "Video"],
+        "models": ["Wan2.2"],
+        "date": "2025-07-29",
+        "size": 16.9
+      },
+      {
+        "name": "video_wan2_2_5B_fun_control",
+        "title": "Wan 2.2 5B Fun Control",
+        "description": "Multi-condition video control with pose, depth, and edge guidance. Compact 5B size for experimental development.",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
         "tags": ["Text to Video", "Video"],
         "models": ["Wan2.2"],
         "date": "2025-07-29",
