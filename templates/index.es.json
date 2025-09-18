@@ -1,9 +1,8 @@
 [
   {
     "moduleName": "default",
-    "category": "USE CASES",
-    "type": "image",
     "title": "Conceptos básicos",
+    "type": "image",
     "templates": [
       {
         "name": "default",
@@ -100,14 +99,156 @@
         "models": ["SD1.5"],
         "date": "2025-03-01",
         "size": 2.77
+      },
+      {
+        "name": "area_composition",
+        "title": "Composición de área",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "Generar imágenes controlando la composición con áreas definidas.",
+        "tags": ["Composición de área", "Imagen"],
+        "models": ["SD1.5"],
+        "date": "2025-03-01",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/area_composition/",
+        "size": 2.3
+      },
+      {
+        "name": "area_composition_square_area_for_subject",
+        "title": "Composición de área área cuadrada para sujeto",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "Generar imágenes con colocación consistente de sujeto usando composición de área.",
+        "tags": ["Composición de área", "Imagen"],
+        "models": ["SD1.5"],
+        "date": "2025-03-01",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/area_composition/#increasing-consistency-of-images-with-area-composition",
+        "size": 2.3
+      },
+      {
+        "name": "hiresfix_latent_workflow",
+        "title": "Mejorar",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "Mejorar imágenes aumentando la calidad en el espacio latente.",
+        "thumbnailVariant": "compareSlider",
+        "tags": ["Mejorar", "Imagen"],
+        "models": ["SD1.5"],
+        "date": "2025-03-01",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/2_pass_txt2img/",
+        "size": 1.99
+      },
+      {
+        "name": "esrgan_example",
+        "title": "ESRGAN",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "Mejorar imágenes usando modelos ESRGAN para aumentar la calidad.",
+        "thumbnailVariant": "compareSlider",
+        "tags": ["Mejorar", "Imagen"],
+        "models": ["SD1.5"],
+        "date": "2025-03-01",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/upscale_models/",
+        "size": 2.05
+      },
+      {
+        "name": "hiresfix_esrgan_workflow",
+        "title": "Flujo de trabajo ESRGAN HiresFix",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "Mejorar imágenes usando modelos ESRGAN durante pasos intermedios de generación.",
+        "thumbnailVariant": "compareSlider",
+        "tags": ["Mejorar", "Imagen"],
+        "models": ["SD1.5"],
+        "date": "2025-03-01",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/2_pass_txt2img/#non-latent-upscaling",
+        "size": 2.05
+      },
+      {
+        "name": "latent_upscale_different_prompt_model",
+        "title": "Mejora latente con modelo de indicación diferente",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "Mejorar imágenes mientras se cambian las indicaciones a través de pasos de generación.",
+        "thumbnailVariant": "zoomHover",
+        "tags": ["Mejorar", "Imagen"],
+        "models": ["SD1.5"],
+        "date": "2025-03-01",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/2_pass_txt2img/#more-examples",
+        "size": 3.97
+      },
+      {
+        "name": "controlnet_example",
+        "title": "ControlNet garabato",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "Generar imágenes guiadas por imágenes de referencia de garabatos usando ControlNet.",
+        "thumbnailVariant": "hoverDissolve",
+        "tags": ["ControlNet", "Imagen"],
+        "models": ["SD1.5"],
+        "date": "2025-03-01",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/controlnet/",
+        "size": 2.97
+      },
+      {
+        "name": "2_pass_pose_worship",
+        "title": "ControlNet pose 2 pasos",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "Generar imágenes guiadas por referencias de pose usando ControlNet.",
+        "thumbnailVariant": "hoverDissolve",
+        "tags": ["ControlNet", "Imagen"],
+        "models": ["SD1.5"],
+        "date": "2025-03-01",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/controlnet/#pose-controlnet",
+        "size": 0.98
+      },
+      {
+        "name": "depth_controlnet",
+        "title": "ControlNet profundidad",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "Generar imágenes guiadas por información de profundidad usando ControlNet.",
+        "thumbnailVariant": "hoverDissolve",
+        "tags": ["ControlNet", "Imagen"],
+        "models": ["SD1.5"],
+        "date": "2025-03-01",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/controlnet/#t2i-adapter-vs-controlnets",
+        "size": 0.67
+      },
+      {
+        "name": "depth_t2i_adapter",
+        "title": "Adaptador T2I profundidad",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "Generar imágenes guiadas por información de profundidad usando adaptador T2I.",
+        "thumbnailVariant": "hoverDissolve",
+        "tags": ["Adaptador T2I", "Imagen"],
+        "models": ["SD1.5"],
+        "date": "2025-03-01",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/controlnet/#t2i-adapter-vs-controlnets"
+      },
+      {
+        "name": "mixing_controlnets",
+        "title": "Mezcla de ControlNets",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "Generar imágenes combinando múltiples modelos ControlNet.",
+        "thumbnailVariant": "hoverDissolve",
+        "tags": ["ControlNet", "Imagen"],
+        "models": ["SD1.5"],
+        "date": "2025-03-01",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/controlnet/#mixing-controlnets",
+        "size": 1.66
       }
-    ]
+    ],
+    "category": "USE CASES"
   },
   {
     "moduleName": "default",
     "category": "USE CASES",
-    "type": "image",
+    "icon": "icon-[lucide--volume-2]",
     "title": "Flux",
+    "type": "image",
     "templates": [
       {
         "name": "image_chroma_text_to_image",
@@ -275,8 +416,9 @@
   {
     "moduleName": "default",
     "category": "USE CASES",
-    "type": "image",
+    "icon": "icon-[lucide--image]",
     "title": "Imagen",
+    "type": "image",
     "templates": [
       {
         "name": "image_qwen_image",
@@ -301,6 +443,19 @@
         "models": ["Qwen-Image"],
         "date": "2025-08-23",
         "size": 32.88
+      },
+      {
+        "name": "image_qwen_image_instantx_inpainting_controlnet",
+        "title": "Qwen-Image InstantX Inpainting ControlNet",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "thumbnailVariant": "compareSlider",
+        "description": "Professional inpainting and image editing with Qwen-Image InstantX ControlNet. Supports object replacement, text modification, background changes, and outpainting.",
+        "tags": ["Image to Image", "Image", "ControlNet", "Inpainting"],
+        "tutorialUrl": "https://docs.comfy.org/tutorials/image/qwen/qwen-image",
+        "models": ["Qwen-Image"],
+        "date": "2025-09-12",
+        "size": 33.54
       },
       {
         "name": "image_qwen_image_union_control_lora",
@@ -555,8 +710,9 @@
   {
     "moduleName": "default",
     "category": "USE CASES",
-    "type": "video",
     "title": "Video",
+    "icon": "icon-[lucide--film]",
+    "type": "video",
     "templates": [
       {
         "name": "video_wan2_2_14B_t2v",
@@ -927,8 +1083,9 @@
   {
     "moduleName": "default",
     "category": "USE CASES",
-    "type": "audio",
+    "icon": "icon-[lucide--volume-2]",
     "title": "Audio",
+    "type": "audio",
     "templates": [
       {
         "name": "audio_stable_audio_example",
@@ -983,8 +1140,9 @@
   {
     "moduleName": "default",
     "category": "USE CASES",
-    "type": "3d",
+    "icon": "icon-[lucide--box]",
     "title": "3D",
+    "type": "3d",
     "templates": [
       {
         "name": "3d_hunyuan3d_image_to_model",
@@ -1041,9 +1199,21 @@
   {
     "moduleName": "default",
     "category": "TOOLS & BUILDING",
-    "type": "image",
     "title": "API de imagen",
+    "icon": "icon-[lucide--hand-coins]",
+    "type": "image",
     "templates": [
+      {
+        "name": "api_bytedance_seedream4",
+        "title": "ByteDance Seedream 4.0",
+        "description": "Multi-modal AI model for text-to-image and image editing. Generate 2K images in under 2 seconds with natural language control.",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "tags": ["Image Edit", "Image", "API", "Text-to-Image"],
+        "models": ["Seedream 4.0"],
+        "date": "2025-09-11",
+        "OpenSource": false
+      },
       {
         "name": "api_google_gemini_image",
         "title": "Google Gemini Image",
@@ -1052,7 +1222,8 @@
         "mediaSubtype": "webp",
         "tags": ["Image Edit", "Image", "API", "Text-to-Image"],
         "models": ["Gemini-2.5-Flash", "nano-banana"],
-        "date": "2025-08-27"
+        "date": "2025-08-27",
+        "OpenSource": false
       },
       {
         "name": "api_bfl_flux_1_kontext_multiple_images_input",
@@ -1064,7 +1235,8 @@
         "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/black-forest-labs/flux-1-kontext",
         "tags": ["Edición de imagen", "Imagen"],
         "models": ["Flux"],
-        "date": "2025-05-29"
+        "date": "2025-05-29",
+        "OpenSource": false
       },
       {
         "name": "api_bfl_flux_1_kontext_pro_image",
@@ -1076,7 +1248,8 @@
         "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/black-forest-labs/flux-1-kontext",
         "tags": ["Edición de imagen", "Imagen"],
         "models": ["Flux"],
-        "date": "2025-05-29"
+        "date": "2025-05-29",
+        "OpenSource": false
       },
       {
         "name": "api_bfl_flux_1_kontext_max_image",
@@ -1088,7 +1261,8 @@
         "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/black-forest-labs/flux-1-kontext",
         "tags": ["Edición de imagen", "Imagen"],
         "models": ["Flux"],
-        "date": "2025-05-29"
+        "date": "2025-05-29",
+        "OpenSource": false
       },
       {
         "name": "api_bfl_flux_pro_t2i",
@@ -1099,7 +1273,8 @@
         "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/black-forest-labs/flux-1-1-pro-ultra-image",
         "tags": ["Edición de imagen", "Imagen"],
         "models": ["Flux"],
-        "date": "2025-05-01"
+        "date": "2025-05-01",
+        "OpenSource": false
       },
       {
         "name": "api_luma_photon_i2i",
@@ -1110,7 +1285,8 @@
         "thumbnailVariant": "compareSlider",
         "tags": ["Imagen a imagen", "Imagen", "API"],
         "models": ["Luma Photon"],
-        "date": "2025-03-01"
+        "date": "2025-03-01",
+        "OpenSource": false
       },
       {
         "name": "api_luma_photon_style_ref",
@@ -1121,7 +1297,8 @@
         "thumbnailVariant": "compareSlider",
         "tags": ["Texto a imagen", "Imagen", "API", "Transferencia de estilo"],
         "models": ["Luma Photon"],
-        "date": "2025-03-01"
+        "date": "2025-03-01",
+        "OpenSource": false
       },
       {
         "name": "api_recraft_image_gen_with_color_control",
@@ -1131,7 +1308,8 @@
         "mediaSubtype": "webp",
         "tags": ["Texto a imagen", "Imagen", "API", "Control de color"],
         "models": ["Recraft"],
-        "date": "2025-03-01"
+        "date": "2025-03-01",
+        "OpenSource": false
       },
       {
         "name": "api_recraft_image_gen_with_style_control",
@@ -1141,7 +1319,8 @@
         "mediaSubtype": "webp",
         "tags": ["Texto a imagen", "Imagen", "API", "Control de estilo"],
         "models": ["Recraft"],
-        "date": "2025-03-01"
+        "date": "2025-03-01",
+        "OpenSource": false
       },
       {
         "name": "api_recraft_vector_gen",
@@ -1151,7 +1330,8 @@
         "mediaSubtype": "webp",
         "tags": ["Texto a imagen", "Imagen", "API", "Vectorial"],
         "models": ["Recraft"],
-        "date": "2025-03-01"
+        "date": "2025-03-01",
+        "OpenSource": false
       },
       {
         "name": "api_runway_text_to_image",
@@ -1161,7 +1341,8 @@
         "mediaSubtype": "webp",
         "tags": ["Texto a imagen", "Imagen", "API"],
         "models": ["Runway"],
-        "date": "2025-03-01"
+        "date": "2025-03-01",
+        "OpenSource": false
       },
       {
         "name": "api_runway_reference_to_image",
@@ -1172,7 +1353,8 @@
         "mediaSubtype": "webp",
         "tags": ["Imagen a imagen", "Imagen", "API", "Transferencia de estilo"],
         "models": ["Runway"],
-        "date": "2025-03-01"
+        "date": "2025-03-01",
+        "OpenSource": false
       },
       {
         "name": "api_stability_ai_stable_image_ultra_t2i",
@@ -1182,7 +1364,8 @@
         "mediaSubtype": "webp",
         "tags": ["Texto a imagen", "Imagen", "API"],
         "models": ["Stable Image Ultra"],
-        "date": "2025-03-01"
+        "date": "2025-03-01",
+        "OpenSource": false
       },
       {
         "name": "api_stability_ai_i2i",
@@ -1193,7 +1376,8 @@
         "mediaSubtype": "webp",
         "tags": ["Imagen a imagen", "Imagen", "API"],
         "models": ["Stability AI"],
-        "date": "2025-03-01"
+        "date": "2025-03-01",
+        "OpenSource": false
       },
       {
         "name": "api_stability_ai_sd3.5_t2i",
@@ -1203,7 +1387,8 @@
         "mediaSubtype": "webp",
         "tags": ["Texto a imagen", "Imagen", "API"],
         "models": ["SD3.5"],
-        "date": "2025-03-01"
+        "date": "2025-03-01",
+        "OpenSource": false
       },
       {
         "name": "api_stability_ai_sd3.5_i2i",
@@ -1214,7 +1399,8 @@
         "mediaSubtype": "webp",
         "tags": ["Imagen a imagen", "Imagen", "API"],
         "models": ["SD3.5"],
-        "date": "2025-03-01"
+        "date": "2025-03-01",
+        "OpenSource": false
       },
       {
         "name": "api_ideogram_v3_t2i",
@@ -1224,7 +1410,8 @@
         "mediaSubtype": "webp",
         "tags": ["Texto a imagen", "Imagen", "API", "Renderizado de texto"],
         "models": ["Ideogram V3"],
-        "date": "2025-03-01"
+        "date": "2025-03-01",
+        "OpenSource": false
       },
       {
         "name": "api_openai_image_1_t2i",
@@ -1235,7 +1422,8 @@
         "tags": ["Texto a imagen", "Imagen", "API"],
         "models": ["GPT-Image-1"],
         "date": "2025-03-01",
-        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/gpt-image-1"
+        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/gpt-image-1",
+        "OpenSource": false
       },
       {
         "name": "api_openai_image_1_i2i",
@@ -1247,7 +1435,8 @@
         "tags": ["Imagen a imagen", "Imagen", "API"],
         "models": ["GPT-Image-1"],
         "date": "2025-03-01",
-        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/gpt-image-1"
+        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/gpt-image-1",
+        "OpenSource": false
       },
       {
         "name": "api_openai_image_1_inpaint",
@@ -1259,7 +1448,8 @@
         "tags": ["Inpaint", "Imagen", "API"],
         "models": ["GPT-Image-1"],
         "date": "2025-03-01",
-        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/gpt-image-1"
+        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/gpt-image-1",
+        "OpenSource": false
       },
       {
         "name": "api_openai_image_1_multi_inputs",
@@ -1271,7 +1461,8 @@
         "tags": ["Texto a imagen", "Imagen", "API", "Entrada múltiple"],
         "models": ["GPT-Image-1"],
         "date": "2025-03-01",
-        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/gpt-image-1"
+        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/gpt-image-1",
+        "OpenSource": false
       },
       {
         "name": "api_openai_dall_e_2_t2i",
@@ -1282,7 +1473,8 @@
         "tags": ["Texto a imagen", "Imagen", "API"],
         "models": ["Dall-E 2"],
         "date": "2025-03-01",
-        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/dall-e-2"
+        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/dall-e-2",
+        "OpenSource": false
       },
       {
         "name": "api_openai_dall_e_2_inpaint",
@@ -1294,7 +1486,8 @@
         "tags": ["Inpaint", "Imagen", "API"],
         "models": ["Dall-E 2"],
         "date": "2025-03-01",
-        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/dall-e-2"
+        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/dall-e-2",
+        "OpenSource": false
       },
       {
         "name": "api_openai_dall_e_3_t2i",
@@ -1305,15 +1498,17 @@
         "tags": ["Texto a imagen", "Imagen", "API"],
         "models": ["Dall-E 3"],
         "date": "2025-03-01",
-        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/dall-e-3"
+        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/dall-e-3",
+        "OpenSource": false
       }
     ]
   },
   {
     "moduleName": "default",
     "category": "TOOLS & BUILDING",
-    "type": "video",
     "title": "API de video",
+    "icon": "icon-[lucide--hand-coins]",
+    "type": "video",
     "templates": [
       {
         "name": "api_kling_i2v",
@@ -1324,7 +1519,8 @@
         "tags": ["Imagen a video", "Video", "API"],
         "models": ["Kling"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_kling_effects",
@@ -1335,7 +1531,8 @@
         "tags": ["Efectos de video", "Video", "API"],
         "models": ["Kling"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_kling_flf",
@@ -1346,7 +1543,8 @@
         "tags": ["Generación de video", "Video", "API", "Control de fotograma"],
         "models": ["Kling"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_vidu_text_to_video",
@@ -1357,7 +1555,8 @@
         "tags": ["Texto a video", "Video", "API"],
         "models": ["Vidu"],
         "date": "2025-08-23",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_vidu_image_to_video",
@@ -1368,7 +1567,8 @@
         "tags": ["Imagen a video", "Video", "API"],
         "models": ["Vidu"],
         "date": "2025-08-23",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_vidu_reference_to_video",
@@ -1379,7 +1579,8 @@
         "tags": ["Referencia a video", "Video", "API"],
         "models": ["Vidu"],
         "date": "2025-08-23",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_vidu_start_end_to_video",
@@ -1390,7 +1591,8 @@
         "tags": ["FLF2V", "Video", "API"],
         "models": ["Vidu"],
         "date": "2025-08-23",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_luma_i2v",
@@ -1401,7 +1603,8 @@
         "tags": ["Imagen a video", "Video", "API"],
         "models": ["Luma"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_luma_t2v",
@@ -1412,7 +1615,8 @@
         "tags": ["Texto a video", "Video", "API"],
         "models": ["Luma"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_moonvalley_text_to_video",
@@ -1423,7 +1627,8 @@
         "tags": ["Texto a video", "Video", "API"],
         "models": ["Moonvalley"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_moonvalley_image_to_video",
@@ -1434,7 +1639,8 @@
         "tags": ["Imagen a video", "Video", "API"],
         "models": ["Moonvalley"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_moonvalley_video_to_video_motion_transfer",
@@ -1443,10 +1649,16 @@
         "mediaType": "image",
         "thumbnailVariant": "hoverDissolve",
         "mediaSubtype": "webp",
-        "tags": ["Video a video", "Video", "API", "Transferencia de movimiento"],
+        "tags": [
+          "Video a video",
+          "Video",
+          "API",
+          "Transferencia de movimiento"
+        ],
         "models": ["Moonvalley"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_moonvalley_video_to_video_pose_control",
@@ -1458,7 +1670,8 @@
         "tags": ["Video a video", "Video", "API", "Control de pose"],
         "models": ["Moonvalley"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_hailuo_minimax_video",
@@ -1469,7 +1682,8 @@
         "tags": ["Texto a video", "Video", "API"],
         "models": ["MiniMax"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_hailuo_minimax_t2v",
@@ -1480,7 +1694,8 @@
         "tags": ["Texto a video", "Video", "API"],
         "models": ["MiniMax"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_hailuo_minimax_i2v",
@@ -1491,7 +1706,8 @@
         "tags": ["Imagen a video", "Video", "API"],
         "models": ["MiniMax"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_pixverse_i2v",
@@ -1502,7 +1718,8 @@
         "tags": ["Imagen a video", "Video", "API"],
         "models": ["PixVerse"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_pixverse_template_i2v",
@@ -1513,7 +1730,8 @@
         "tags": ["Imagen a video", "Video", "API", "Plantillas"],
         "models": ["PixVerse"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_pixverse_t2v",
@@ -1524,7 +1742,8 @@
         "tags": ["Texto a video", "Video", "API"],
         "models": ["PixVerse"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_runway_gen3a_turbo_image_to_video",
@@ -1535,7 +1754,8 @@
         "tags": ["Imagen a video", "Video", "API"],
         "models": ["Runway Gen3a Turbo"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_runway_gen4_turo_image_to_video",
@@ -1546,7 +1766,8 @@
         "tags": ["Imagen a video", "Video", "API"],
         "models": ["Runway Gen4 Turbo"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_runway_first_last_frame",
@@ -1557,7 +1778,8 @@
         "tags": ["Generación de video", "Video", "API", "Control de fotograma"],
         "models": ["Runway"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_pika_i2v",
@@ -1568,7 +1790,8 @@
         "tags": ["Imagen a video", "Video", "API"],
         "models": ["Pika"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_pika_scene",
@@ -1579,7 +1802,8 @@
         "tags": ["Imagen a video", "Video", "API", "Imagen múltiple"],
         "models": ["Pika Scenes"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_veo2_i2v",
@@ -1590,7 +1814,8 @@
         "tags": ["Imagen a video", "Video", "API"],
         "models": ["Veo2"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_veo3",
@@ -1601,15 +1826,17 @@
         "tags": ["Imagen a video", "Texto a video", "API"],
         "models": ["Veo3"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       }
     ]
   },
   {
     "moduleName": "default",
     "category": "TOOLS & BUILDING",
-    "type": "image",
     "title": "API 3D",
+    "icon": "icon-[lucide--hand-coins]",
+    "type": "image",
     "templates": [
       {
         "name": "api_rodin_image_to_model",
@@ -1621,7 +1848,8 @@
         "tags": ["Imagen a modelo", "3D", "API"],
         "models": ["Rodin"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_rodin_multiview_to_model",
@@ -1633,7 +1861,8 @@
         "tags": ["Vista múltiple a modelo", "3D", "API"],
         "models": ["Rodin"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_tripo_text_to_model",
@@ -1644,7 +1873,8 @@
         "tags": ["Texto a modelo", "3D", "API"],
         "models": ["Tripo"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_tripo_image_to_model",
@@ -1656,7 +1886,8 @@
         "tags": ["Imagen a modelo", "3D", "API"],
         "models": ["Tripo"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_tripo_multiview_to_model",
@@ -1668,15 +1899,17 @@
         "tags": ["Vista múltiple a modelo", "3D", "API"],
         "models": ["Tripo"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       }
     ]
   },
   {
     "moduleName": "default",
-    "category": "HERRAMIENTAS Y CONSTRUCCIÓN",
-    "type": "image",
+    "category": "TOOLS & BUILDING",
     "title": "API de Audio",
+    "type": "image",
+    "icon": "icon-[lucide--hand-coins]",
     "templates": [
       {
         "name": "api_stability_ai_text_to_audio",
@@ -1686,7 +1919,8 @@
         "mediaSubtype": "mp3",
         "tags": ["Texto a audio", "Audio", "API"],
         "date": "2025-09-09",
-        "models": ["Stable Audio 2.5"]
+        "models": ["Stable Audio 2.5"],
+        "OpenSource": false
       },
       {
         "name": "api_stability_ai_audio_to_audio",
@@ -1696,7 +1930,8 @@
         "mediaSubtype": "mp3",
         "tags": ["Audio a audio", "Audio", "API"],
         "date": "2025-09-09",
-        "models": ["Stable Audio 2.5"]
+        "models": ["Stable Audio 2.5"],
+        "OpenSource": false
       },
       {
         "name": "api_stability_ai_audio_inpaint",
@@ -1706,15 +1941,17 @@
         "mediaSubtype": "mp3",
         "tags": ["Audio a audio", "Audio", "API"],
         "date": "2025-09-09",
-        "models": ["Stable Audio 2.5"]
+        "models": ["Stable Audio 2.5"],
+        "OpenSource": false
       }
     ]
   },
   {
     "moduleName": "default",
     "category": "TOOLS & BUILDING",
-    "type": "image",
     "title": "API LLM",
+    "icon": "icon-[lucide--hand-coins]",
+    "type": "image",
     "templates": [
       {
         "name": "api_openai_chat",
@@ -1725,7 +1962,8 @@
         "tags": ["Chat", "LLM", "API"],
         "models": ["OpenAI"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_google_gemini",
@@ -1736,171 +1974,8 @@
         "tags": ["Chat", "LLM", "API"],
         "models": ["Google Gemini"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
-      }
-    ]
-  },
-  {
-    "moduleName": "default",
-    "category": "TOOLS & BUILDING",
-    "type": "image",
-    "title": "Mejora",
-    "templates": [
-      {
-        "name": "hiresfix_latent_workflow",
-        "title": "Mejorar",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "Mejorar imágenes aumentando la calidad en el espacio latente.",
-        "thumbnailVariant": "compareSlider",
-        "tags": ["Mejorar", "Imagen"],
-        "models": ["SD1.5"],
-        "date": "2025-03-01",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/2_pass_txt2img/",
-        "size": 1.99
-      },
-      {
-        "name": "esrgan_example",
-        "title": "ESRGAN",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "Mejorar imágenes usando modelos ESRGAN para aumentar la calidad.",
-        "thumbnailVariant": "compareSlider",
-        "tags": ["Mejorar", "Imagen"],
-        "models": ["SD1.5"],
-        "date": "2025-03-01",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/upscale_models/",
-        "size": 2.05
-      },
-      {
-        "name": "hiresfix_esrgan_workflow",
-        "title": "Flujo de trabajo ESRGAN HiresFix",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "Mejorar imágenes usando modelos ESRGAN durante pasos intermedios de generación.",
-        "thumbnailVariant": "compareSlider",
-        "tags": ["Mejorar", "Imagen"],
-        "models": ["SD1.5"],
-        "date": "2025-03-01",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/2_pass_txt2img/#non-latent-upscaling",
-        "size": 2.05
-      },
-      {
-        "name": "latent_upscale_different_prompt_model",
-        "title": "Mejora latente con modelo de indicación diferente",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "Mejorar imágenes mientras se cambian las indicaciones a través de pasos de generación.",
-        "thumbnailVariant": "zoomHover",
-        "tags": ["Mejorar", "Imagen"],
-        "models": ["SD1.5"],
-        "date": "2025-03-01",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/2_pass_txt2img/#more-examples",
-        "size": 3.97
-      }
-    ]
-  },
-  {
-    "moduleName": "default",
-    "category": "TOOLS & BUILDING",
-    "type": "image",
-    "title": "ControlNet",
-    "templates": [
-      {
-        "name": "controlnet_example",
-        "title": "ControlNet garabato",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "Generar imágenes guiadas por imágenes de referencia de garabatos usando ControlNet.",
-        "thumbnailVariant": "hoverDissolve",
-        "tags": ["ControlNet", "Imagen"],
-        "models": ["SD1.5"],
-        "date": "2025-03-01",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/controlnet/",
-        "size": 2.97
-      },
-      {
-        "name": "2_pass_pose_worship",
-        "title": "ControlNet pose 2 pasos",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "Generar imágenes guiadas por referencias de pose usando ControlNet.",
-        "thumbnailVariant": "hoverDissolve",
-        "tags": ["ControlNet", "Imagen"],
-        "models": ["SD1.5"],
-        "date": "2025-03-01",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/controlnet/#pose-controlnet",
-        "size": 0.98
-      },
-      {
-        "name": "depth_controlnet",
-        "title": "ControlNet profundidad",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "Generar imágenes guiadas por información de profundidad usando ControlNet.",
-        "thumbnailVariant": "hoverDissolve",
-        "tags": ["ControlNet", "Imagen"],
-        "models": ["SD1.5"],
-        "date": "2025-03-01",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/controlnet/#t2i-adapter-vs-controlnets",
-        "size": 0.67
-      },
-      {
-        "name": "depth_t2i_adapter",
-        "title": "Adaptador T2I profundidad",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "Generar imágenes guiadas por información de profundidad usando adaptador T2I.",
-        "thumbnailVariant": "hoverDissolve",
-        "tags": ["Adaptador T2I", "Imagen"],
-        "models": ["SD1.5"],
-        "date": "2025-03-01",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/controlnet/#t2i-adapter-vs-controlnets"
-      },
-      {
-        "name": "mixing_controlnets",
-        "title": "Mezcla de ControlNets",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "Generar imágenes combinando múltiples modelos ControlNet.",
-        "thumbnailVariant": "hoverDissolve",
-        "tags": ["ControlNet", "Imagen"],
-        "models": ["SD1.5"],
-        "date": "2025-03-01",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/controlnet/#mixing-controlnets",
-        "size": 1.66
-      }
-    ]
-  },
-  {
-    "moduleName": "default",
-    "category": "TOOLS & BUILDING",
-    "type": "image",
-    "title": "Composición de área",
-    "templates": [
-      {
-        "name": "area_composition",
-        "title": "Composición de área",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "Generar imágenes controlando la composición con áreas definidas.",
-        "tags": ["Composición de área", "Imagen"],
-        "models": ["SD1.5"],
-        "date": "2025-03-01",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/area_composition/",
-        "size": 2.3
-      },
-      {
-        "name": "area_composition_square_area_for_subject",
-        "title": "Composición de área área cuadrada para sujeto",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "Generar imágenes con colocación consistente de sujeto usando composición de área.",
-        "tags": ["Composición de área", "Imagen"],
-        "models": ["SD1.5"],
-        "date": "2025-03-01",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/area_composition/#increasing-consistency-of-images-with-area-composition",
-        "size": 2.3
+        "tutorialUrl": "",
+        "OpenSource": false
       }
     ]
   }

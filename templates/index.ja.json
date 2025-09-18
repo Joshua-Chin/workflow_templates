@@ -1,9 +1,8 @@
 [
   {
     "moduleName": "default",
-    "category": "USE CASES",
-    "type": "image",
     "title": "基本",
+    "type": "image",
     "templates": [
       {
         "name": "default",
@@ -100,14 +99,156 @@
         "models": ["SD1.5"],
         "date": "2025-03-01",
         "size": 2.77
+      },
+      {
+        "name": "area_composition",
+        "title": "エリア構成",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "定義されたエリアで構成を制御して画像を生成します。",
+        "tags": ["エリア構成", "画像"],
+        "models": ["SD1.5"],
+        "date": "2025-03-01",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/area_composition/",
+        "size": 2.3
+      },
+      {
+        "name": "area_composition_square_area_for_subject",
+        "title": "エリア構成主題用正方形エリア",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "エリア構成を使用して、一貫した主題配置で画像を生成します。",
+        "tags": ["エリア構成", "画像"],
+        "models": ["SD1.5"],
+        "date": "2025-03-01",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/area_composition/#increasing-consistency-of-images-with-area-composition",
+        "size": 2.3
+      },
+      {
+        "name": "hiresfix_latent_workflow",
+        "title": "アップスケール",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "潜在空間で品質を向上させて画像をアップスケールします。",
+        "thumbnailVariant": "compareSlider",
+        "tags": ["アップスケール", "画像"],
+        "models": ["SD1.5"],
+        "date": "2025-03-01",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/2_pass_txt2img/",
+        "size": 1.99
+      },
+      {
+        "name": "esrgan_example",
+        "title": "ESRGAN",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "ESRGANモデルを使用して品質を向上させて画像をアップスケールします。",
+        "thumbnailVariant": "compareSlider",
+        "tags": ["アップスケール", "画像"],
+        "models": ["SD1.5"],
+        "date": "2025-03-01",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/upscale_models/",
+        "size": 2.05
+      },
+      {
+        "name": "hiresfix_esrgan_workflow",
+        "title": "HiresFix ESRGANワークフロー",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "中間生成ステップでESRGANモデルを使用して画像をアップスケールします。",
+        "thumbnailVariant": "compareSlider",
+        "tags": ["アップスケール", "画像"],
+        "models": ["SD1.5"],
+        "date": "2025-03-01",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/2_pass_txt2img/#non-latent-upscaling",
+        "size": 2.05
+      },
+      {
+        "name": "latent_upscale_different_prompt_model",
+        "title": "潜在アップスケール異なるプロンプトモデル",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "生成パス全体でプロンプトを変更しながら画像をアップスケールします。",
+        "thumbnailVariant": "zoomHover",
+        "tags": ["アップスケール", "画像"],
+        "models": ["SD1.5"],
+        "date": "2025-03-01",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/2_pass_txt2img/#more-examples",
+        "size": 3.97
+      },
+      {
+        "name": "controlnet_example",
+        "title": "スクリブルControlNet",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "ControlNetを使用して、スクリブル参照画像でガイドされた画像を生成します。",
+        "thumbnailVariant": "hoverDissolve",
+        "tags": ["ControlNet", "画像"],
+        "models": ["SD1.5"],
+        "date": "2025-03-01",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/controlnet/",
+        "size": 2.97
+      },
+      {
+        "name": "2_pass_pose_worship",
+        "title": "ポーズControlNet 2パス",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "ControlNetを使用して、ポーズ参照でガイドされた画像を生成します。",
+        "thumbnailVariant": "hoverDissolve",
+        "tags": ["ControlNet", "画像"],
+        "models": ["SD1.5"],
+        "date": "2025-03-01",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/controlnet/#pose-controlnet",
+        "size": 0.98
+      },
+      {
+        "name": "depth_controlnet",
+        "title": "深度ControlNet",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "ControlNetを使用して、深度情報でガイドされた画像を生成します。",
+        "thumbnailVariant": "hoverDissolve",
+        "tags": ["ControlNet", "画像"],
+        "models": ["SD1.5"],
+        "date": "2025-03-01",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/controlnet/#t2i-adapter-vs-controlnets",
+        "size": 0.67
+      },
+      {
+        "name": "depth_t2i_adapter",
+        "title": "深度T2Iアダプター",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "T2Iアダプターを使用して、深度情報でガイドされた画像を生成します。",
+        "thumbnailVariant": "hoverDissolve",
+        "tags": ["T2Iアダプター", "画像"],
+        "models": ["SD1.5"],
+        "date": "2025-03-01",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/controlnet/#t2i-adapter-vs-controlnets"
+      },
+      {
+        "name": "mixing_controlnets",
+        "title": "ControlNet混合",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "description": "複数のControlNetモデルを組み合わせて画像を生成します。",
+        "thumbnailVariant": "hoverDissolve",
+        "tags": ["ControlNet", "画像"],
+        "models": ["SD1.5"],
+        "date": "2025-03-01",
+        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/controlnet/#mixing-controlnets",
+        "size": 1.66
       }
-    ]
+    ],
+    "category": "USE CASES"
   },
   {
     "moduleName": "default",
     "category": "USE CASES",
-    "type": "image",
+    "icon": "icon-[lucide--volume-2]",
     "title": "Flux",
+    "type": "image",
     "templates": [
       {
         "name": "image_chroma_text_to_image",
@@ -275,8 +416,9 @@
   {
     "moduleName": "default",
     "category": "USE CASES",
-    "type": "image",
+    "icon": "icon-[lucide--image]",
     "title": "画像",
+    "type": "image",
     "templates": [
       {
         "name": "image_qwen_image",
@@ -301,6 +443,19 @@
         "models": ["Qwen-Image"],
         "date": "2025-08-23",
         "size": 32.88
+      },
+      {
+        "name": "image_qwen_image_instantx_inpainting_controlnet",
+        "title": "Qwen-Image InstantX Inpainting ControlNet",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "thumbnailVariant": "compareSlider",
+        "description": "Professional inpainting and image editing with Qwen-Image InstantX ControlNet. Supports object replacement, text modification, background changes, and outpainting.",
+        "tags": ["Image to Image", "Image", "ControlNet", "Inpainting"],
+        "tutorialUrl": "https://docs.comfy.org/tutorials/image/qwen/qwen-image",
+        "models": ["Qwen-Image"],
+        "date": "2025-09-12",
+        "size": 33.54
       },
       {
         "name": "image_qwen_image_union_control_lora",
@@ -555,8 +710,9 @@
   {
     "moduleName": "default",
     "category": "USE CASES",
-    "type": "video",
     "title": "ビデオ",
+    "icon": "icon-[lucide--film]",
+    "type": "video",
     "templates": [
       {
         "name": "video_wan2_2_14B_t2v",
@@ -927,8 +1083,9 @@
   {
     "moduleName": "default",
     "category": "USE CASES",
-    "type": "audio",
+    "icon": "icon-[lucide--volume-2]",
     "title": "オーディオ",
+    "type": "audio",
     "templates": [
       {
         "name": "audio_stable_audio_example",
@@ -948,7 +1105,11 @@
         "mediaType": "audio",
         "mediaSubtype": "mp3",
         "description": "ACE-Step v1を使用して、テキストプロンプトからインストゥルメンタル音楽を生成します。",
-        "tags": ["テキストからオーディオ", "オーディオ", "インストゥルメンタル"],
+        "tags": [
+          "テキストからオーディオ",
+          "オーディオ",
+          "インストゥルメンタル"
+        ],
         "models": ["ACE-Step v1"],
         "date": "2025-03-01",
         "tutorialUrl": "https://docs.comfy.org/tutorials/audio/ace-step/ace-step-v1",
@@ -983,8 +1144,9 @@
   {
     "moduleName": "default",
     "category": "USE CASES",
-    "type": "3d",
+    "icon": "icon-[lucide--box]",
     "title": "3D",
+    "type": "3d",
     "templates": [
       {
         "name": "3d_hunyuan3d_image_to_model",
@@ -1041,9 +1203,21 @@
   {
     "moduleName": "default",
     "category": "TOOLS & BUILDING",
-    "type": "image",
     "title": "画像API",
+    "icon": "icon-[lucide--hand-coins]",
+    "type": "image",
     "templates": [
+      {
+        "name": "api_bytedance_seedream4",
+        "title": "ByteDance Seedream 4.0",
+        "description": "Multi-modal AI model for text-to-image and image editing. Generate 2K images in under 2 seconds with natural language control.",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "tags": ["Image Edit", "Image", "API", "Text-to-Image"],
+        "models": ["Seedream 4.0"],
+        "date": "2025-09-11",
+        "OpenSource": false
+      },
       {
         "name": "api_google_gemini_image",
         "title": "Google Gemini画像",
@@ -1052,7 +1226,8 @@
         "mediaSubtype": "webp",
         "tags": ["画像編集", "画像", "API", "テキストから画像"],
         "models": ["Gemini-2.5-Flash", "nano-banana"],
-        "date": "2025-08-27"
+        "date": "2025-08-27",
+        "OpenSource": false
       },
       {
         "name": "api_bfl_flux_1_kontext_multiple_images_input",
@@ -1064,7 +1239,8 @@
         "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/black-forest-labs/flux-1-kontext",
         "tags": ["画像編集", "画像"],
         "models": ["Flux"],
-        "date": "2025-05-29"
+        "date": "2025-05-29",
+        "OpenSource": false
       },
       {
         "name": "api_bfl_flux_1_kontext_pro_image",
@@ -1076,7 +1252,8 @@
         "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/black-forest-labs/flux-1-kontext",
         "tags": ["画像編集", "画像"],
         "models": ["Flux"],
-        "date": "2025-05-29"
+        "date": "2025-05-29",
+        "OpenSource": false
       },
       {
         "name": "api_bfl_flux_1_kontext_max_image",
@@ -1088,7 +1265,8 @@
         "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/black-forest-labs/flux-1-kontext",
         "tags": ["画像編集", "画像"],
         "models": ["Flux"],
-        "date": "2025-05-29"
+        "date": "2025-05-29",
+        "OpenSource": false
       },
       {
         "name": "api_bfl_flux_pro_t2i",
@@ -1099,7 +1277,8 @@
         "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/black-forest-labs/flux-1-1-pro-ultra-image",
         "tags": ["画像編集", "画像"],
         "models": ["Flux"],
-        "date": "2025-05-01"
+        "date": "2025-05-01",
+        "OpenSource": false
       },
       {
         "name": "api_luma_photon_i2i",
@@ -1110,7 +1289,8 @@
         "thumbnailVariant": "compareSlider",
         "tags": ["画像から画像", "画像", "API"],
         "models": ["Luma Photon"],
-        "date": "2025-03-01"
+        "date": "2025-03-01",
+        "OpenSource": false
       },
       {
         "name": "api_luma_photon_style_ref",
@@ -1121,7 +1301,8 @@
         "thumbnailVariant": "compareSlider",
         "tags": ["テキストから画像", "画像", "API", "スタイル転送"],
         "models": ["Luma Photon"],
-        "date": "2025-03-01"
+        "date": "2025-03-01",
+        "OpenSource": false
       },
       {
         "name": "api_recraft_image_gen_with_color_control",
@@ -1131,7 +1312,8 @@
         "mediaSubtype": "webp",
         "tags": ["テキストから画像", "画像", "API", "カラーコントロール"],
         "models": ["Recraft"],
-        "date": "2025-03-01"
+        "date": "2025-03-01",
+        "OpenSource": false
       },
       {
         "name": "api_recraft_image_gen_with_style_control",
@@ -1141,7 +1323,8 @@
         "mediaSubtype": "webp",
         "tags": ["テキストから画像", "画像", "API", "スタイル制御"],
         "models": ["Recraft"],
-        "date": "2025-03-01"
+        "date": "2025-03-01",
+        "OpenSource": false
       },
       {
         "name": "api_recraft_vector_gen",
@@ -1151,7 +1334,8 @@
         "mediaSubtype": "webp",
         "tags": ["テキストから画像", "画像", "API", "ベクター"],
         "models": ["Recraft"],
-        "date": "2025-03-01"
+        "date": "2025-03-01",
+        "OpenSource": false
       },
       {
         "name": "api_runway_text_to_image",
@@ -1161,7 +1345,8 @@
         "mediaSubtype": "webp",
         "tags": ["テキストから画像", "画像", "API"],
         "models": ["Runway"],
-        "date": "2025-03-01"
+        "date": "2025-03-01",
+        "OpenSource": false
       },
       {
         "name": "api_runway_reference_to_image",
@@ -1172,7 +1357,8 @@
         "mediaSubtype": "webp",
         "tags": ["画像から画像", "画像", "API", "スタイル転送"],
         "models": ["Runway"],
-        "date": "2025-03-01"
+        "date": "2025-03-01",
+        "OpenSource": false
       },
       {
         "name": "api_stability_ai_stable_image_ultra_t2i",
@@ -1182,7 +1368,8 @@
         "mediaSubtype": "webp",
         "tags": ["テキストから画像", "画像", "API"],
         "models": ["Stable Image Ultra"],
-        "date": "2025-03-01"
+        "date": "2025-03-01",
+        "OpenSource": false
       },
       {
         "name": "api_stability_ai_i2i",
@@ -1193,7 +1380,8 @@
         "mediaSubtype": "webp",
         "tags": ["画像から画像", "画像", "API"],
         "models": ["Stability AI"],
-        "date": "2025-03-01"
+        "date": "2025-03-01",
+        "OpenSource": false
       },
       {
         "name": "api_stability_ai_sd3.5_t2i",
@@ -1203,7 +1391,8 @@
         "mediaSubtype": "webp",
         "tags": ["テキストから画像", "画像", "API"],
         "models": ["SD3.5"],
-        "date": "2025-03-01"
+        "date": "2025-03-01",
+        "OpenSource": false
       },
       {
         "name": "api_stability_ai_sd3.5_i2i",
@@ -1214,7 +1403,8 @@
         "mediaSubtype": "webp",
         "tags": ["画像から画像", "画像", "API"],
         "models": ["SD3.5"],
-        "date": "2025-03-01"
+        "date": "2025-03-01",
+        "OpenSource": false
       },
       {
         "name": "api_ideogram_v3_t2i",
@@ -1224,7 +1414,8 @@
         "mediaSubtype": "webp",
         "tags": ["テキストから画像", "画像", "API", "テキストレンダリング"],
         "models": ["Ideogram V3"],
-        "date": "2025-03-01"
+        "date": "2025-03-01",
+        "OpenSource": false
       },
       {
         "name": "api_openai_image_1_t2i",
@@ -1235,7 +1426,8 @@
         "tags": ["テキストから画像", "画像", "API"],
         "models": ["GPT-Image-1"],
         "date": "2025-03-01",
-        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/gpt-image-1"
+        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/gpt-image-1",
+        "OpenSource": false
       },
       {
         "name": "api_openai_image_1_i2i",
@@ -1247,7 +1439,8 @@
         "tags": ["画像から画像", "画像", "API"],
         "models": ["GPT-Image-1"],
         "date": "2025-03-01",
-        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/gpt-image-1"
+        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/gpt-image-1",
+        "OpenSource": false
       },
       {
         "name": "api_openai_image_1_inpaint",
@@ -1259,7 +1452,8 @@
         "tags": ["インペイント", "画像", "API"],
         "models": ["GPT-Image-1"],
         "date": "2025-03-01",
-        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/gpt-image-1"
+        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/gpt-image-1",
+        "OpenSource": false
       },
       {
         "name": "api_openai_image_1_multi_inputs",
@@ -1271,7 +1465,8 @@
         "tags": ["テキストから画像", "画像", "API", "複数入力"],
         "models": ["GPT-Image-1"],
         "date": "2025-03-01",
-        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/gpt-image-1"
+        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/gpt-image-1",
+        "OpenSource": false
       },
       {
         "name": "api_openai_dall_e_2_t2i",
@@ -1282,7 +1477,8 @@
         "tags": ["テキストから画像", "画像", "API"],
         "models": ["Dall-E 2"],
         "date": "2025-03-01",
-        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/dall-e-2"
+        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/dall-e-2",
+        "OpenSource": false
       },
       {
         "name": "api_openai_dall_e_2_inpaint",
@@ -1294,7 +1490,8 @@
         "tags": ["インペイント", "画像", "API"],
         "models": ["Dall-E 2"],
         "date": "2025-03-01",
-        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/dall-e-2"
+        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/dall-e-2",
+        "OpenSource": false
       },
       {
         "name": "api_openai_dall_e_3_t2i",
@@ -1305,15 +1502,17 @@
         "tags": ["テキストから画像", "画像", "API"],
         "models": ["Dall-E 3"],
         "date": "2025-03-01",
-        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/dall-e-3"
+        "tutorialUrl": "https://docs.comfy.org/tutorials/api-nodes/openai/dall-e-3",
+        "OpenSource": false
       }
     ]
   },
   {
     "moduleName": "default",
     "category": "TOOLS & BUILDING",
-    "type": "video",
     "title": "ビデオAPI",
+    "icon": "icon-[lucide--hand-coins]",
+    "type": "video",
     "templates": [
       {
         "name": "api_kling_i2v",
@@ -1324,7 +1523,8 @@
         "tags": ["画像からビデオ", "ビデオ", "API"],
         "models": ["Kling"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_kling_effects",
@@ -1335,7 +1535,8 @@
         "tags": ["ビデオ効果", "ビデオ", "API"],
         "models": ["Kling"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_kling_flf",
@@ -1346,7 +1547,8 @@
         "tags": ["ビデオ生成", "ビデオ", "API", "フレーム制御"],
         "models": ["Kling"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_vidu_text_to_video",
@@ -1357,7 +1559,8 @@
         "tags": ["テキストからビデオ", "ビデオ", "API"],
         "models": ["Vidu"],
         "date": "2025-08-23",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_vidu_image_to_video",
@@ -1368,7 +1571,8 @@
         "tags": ["画像からビデオ", "ビデオ", "API"],
         "models": ["Vidu"],
         "date": "2025-08-23",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_vidu_reference_to_video",
@@ -1379,7 +1583,8 @@
         "tags": ["参照からビデオ", "ビデオ", "API"],
         "models": ["Vidu"],
         "date": "2025-08-23",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_vidu_start_end_to_video",
@@ -1390,7 +1595,8 @@
         "tags": ["FLF2V", "ビデオ", "API"],
         "models": ["Vidu"],
         "date": "2025-08-23",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_luma_i2v",
@@ -1401,7 +1607,8 @@
         "tags": ["画像からビデオ", "ビデオ", "API"],
         "models": ["Luma"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_luma_t2v",
@@ -1412,7 +1619,8 @@
         "tags": ["テキストからビデオ", "ビデオ", "API"],
         "models": ["Luma"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_moonvalley_text_to_video",
@@ -1423,7 +1631,8 @@
         "tags": ["テキストからビデオ", "ビデオ", "API"],
         "models": ["Moonvalley"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_moonvalley_image_to_video",
@@ -1434,7 +1643,8 @@
         "tags": ["画像からビデオ", "ビデオ", "API"],
         "models": ["Moonvalley"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_moonvalley_video_to_video_motion_transfer",
@@ -1446,7 +1656,8 @@
         "tags": ["ビデオからビデオ", "ビデオ", "API", "モーション転送"],
         "models": ["Moonvalley"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_moonvalley_video_to_video_pose_control",
@@ -1458,7 +1669,8 @@
         "tags": ["ビデオからビデオ", "ビデオ", "API", "ポーズ制御"],
         "models": ["Moonvalley"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_hailuo_minimax_video",
@@ -1469,7 +1681,8 @@
         "tags": ["テキストからビデオ", "ビデオ", "API"],
         "models": ["MiniMax"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_hailuo_minimax_t2v",
@@ -1480,7 +1693,8 @@
         "tags": ["テキストからビデオ", "ビデオ", "API"],
         "models": ["MiniMax"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_hailuo_minimax_i2v",
@@ -1491,7 +1705,8 @@
         "tags": ["画像からビデオ", "ビデオ", "API"],
         "models": ["MiniMax"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_pixverse_i2v",
@@ -1502,7 +1717,8 @@
         "tags": ["画像からビデオ", "ビデオ", "API"],
         "models": ["PixVerse"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_pixverse_template_i2v",
@@ -1513,7 +1729,8 @@
         "tags": ["画像からビデオ", "ビデオ", "API", "テンプレート"],
         "models": ["PixVerse"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_pixverse_t2v",
@@ -1524,7 +1741,8 @@
         "tags": ["テキストからビデオ", "ビデオ", "API"],
         "models": ["PixVerse"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_runway_gen3a_turbo_image_to_video",
@@ -1535,7 +1753,8 @@
         "tags": ["画像からビデオ", "ビデオ", "API"],
         "models": ["Runway Gen3a Turbo"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_runway_gen4_turo_image_to_video",
@@ -1546,7 +1765,8 @@
         "tags": ["画像からビデオ", "ビデオ", "API"],
         "models": ["Runway Gen4 Turbo"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_runway_first_last_frame",
@@ -1557,7 +1777,8 @@
         "tags": ["ビデオ生成", "ビデオ", "API", "フレーム制御"],
         "models": ["Runway"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_pika_i2v",
@@ -1568,7 +1789,8 @@
         "tags": ["画像からビデオ", "ビデオ", "API"],
         "models": ["Pika"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_pika_scene",
@@ -1579,7 +1801,8 @@
         "tags": ["画像からビデオ", "ビデオ", "API", "複数画像"],
         "models": ["Pika Scenes"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_veo2_i2v",
@@ -1590,7 +1813,8 @@
         "tags": ["画像からビデオ", "ビデオ", "API"],
         "models": ["Veo2"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_veo3",
@@ -1601,15 +1825,17 @@
         "tags": ["画像からビデオ", "テキストからビデオ", "API"],
         "models": ["Veo3"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       }
     ]
   },
   {
     "moduleName": "default",
     "category": "TOOLS & BUILDING",
-    "type": "image",
     "title": "3D API",
+    "icon": "icon-[lucide--hand-coins]",
+    "type": "image",
     "templates": [
       {
         "name": "api_rodin_image_to_model",
@@ -1621,7 +1847,8 @@
         "tags": ["画像からモデル", "3D", "API"],
         "models": ["Rodin"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_rodin_multiview_to_model",
@@ -1633,7 +1860,8 @@
         "tags": ["マルチビューからモデル", "3D", "API"],
         "models": ["Rodin"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_tripo_text_to_model",
@@ -1644,7 +1872,8 @@
         "tags": ["テキストからモデル", "3D", "API"],
         "models": ["Tripo"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_tripo_image_to_model",
@@ -1656,7 +1885,8 @@
         "tags": ["画像からモデル", "3D", "API"],
         "models": ["Tripo"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_tripo_multiview_to_model",
@@ -1668,15 +1898,17 @@
         "tags": ["マルチビューからモデル", "3D", "API"],
         "models": ["Tripo"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       }
     ]
   },
   {
     "moduleName": "default",
-    "category": "ツール・構築",
-    "type": "image",
+    "category": "TOOLS & BUILDING",
     "title": "オーディオAPI",
+    "type": "image",
+    "icon": "icon-[lucide--hand-coins]",
     "templates": [
       {
         "name": "api_stability_ai_text_to_audio",
@@ -1686,7 +1918,8 @@
         "mediaSubtype": "mp3",
         "tags": ["テキストからオーディオ", "オーディオ", "API"],
         "date": "2025-09-09",
-        "models": ["Stable Audio 2.5"]
+        "models": ["Stable Audio 2.5"],
+        "OpenSource": false
       },
       {
         "name": "api_stability_ai_audio_to_audio",
@@ -1696,7 +1929,8 @@
         "mediaSubtype": "mp3",
         "tags": ["オーディオからオーディオ", "オーディオ", "API"],
         "date": "2025-09-09",
-        "models": ["Stable Audio 2.5"]
+        "models": ["Stable Audio 2.5"],
+        "OpenSource": false
       },
       {
         "name": "api_stability_ai_audio_inpaint",
@@ -1706,15 +1940,17 @@
         "mediaSubtype": "mp3",
         "tags": ["オーディオからオーディオ", "オーディオ", "API"],
         "date": "2025-09-09",
-        "models": ["Stable Audio 2.5"]
+        "models": ["Stable Audio 2.5"],
+        "OpenSource": false
       }
     ]
   },
   {
     "moduleName": "default",
     "category": "TOOLS & BUILDING",
-    "type": "image",
     "title": "LLM API",
+    "icon": "icon-[lucide--hand-coins]",
+    "type": "image",
     "templates": [
       {
         "name": "api_openai_chat",
@@ -1725,7 +1961,8 @@
         "tags": ["チャット", "LLM", "API"],
         "models": ["OpenAI"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
+        "tutorialUrl": "",
+        "OpenSource": false
       },
       {
         "name": "api_google_gemini",
@@ -1736,171 +1973,8 @@
         "tags": ["チャット", "LLM", "API"],
         "models": ["Google Gemini"],
         "date": "2025-03-01",
-        "tutorialUrl": ""
-      }
-    ]
-  },
-  {
-    "moduleName": "default",
-    "category": "TOOLS & BUILDING",
-    "type": "image",
-    "title": "アップスケーリング",
-    "templates": [
-      {
-        "name": "hiresfix_latent_workflow",
-        "title": "アップスケール",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "潜在空間で品質を向上させて画像をアップスケールします。",
-        "thumbnailVariant": "compareSlider",
-        "tags": ["アップスケール", "画像"],
-        "models": ["SD1.5"],
-        "date": "2025-03-01",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/2_pass_txt2img/",
-        "size": 1.99
-      },
-      {
-        "name": "esrgan_example",
-        "title": "ESRGAN",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "ESRGANモデルを使用して品質を向上させて画像をアップスケールします。",
-        "thumbnailVariant": "compareSlider",
-        "tags": ["アップスケール", "画像"],
-        "models": ["SD1.5"],
-        "date": "2025-03-01",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/upscale_models/",
-        "size": 2.05
-      },
-      {
-        "name": "hiresfix_esrgan_workflow",
-        "title": "HiresFix ESRGANワークフロー",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "中間生成ステップでESRGANモデルを使用して画像をアップスケールします。",
-        "thumbnailVariant": "compareSlider",
-        "tags": ["アップスケール", "画像"],
-        "models": ["SD1.5"],
-        "date": "2025-03-01",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/2_pass_txt2img/#non-latent-upscaling",
-        "size": 2.05
-      },
-      {
-        "name": "latent_upscale_different_prompt_model",
-        "title": "潜在アップスケール異なるプロンプトモデル",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "生成パス全体でプロンプトを変更しながら画像をアップスケールします。",
-        "thumbnailVariant": "zoomHover",
-        "tags": ["アップスケール", "画像"],
-        "models": ["SD1.5"],
-        "date": "2025-03-01",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/2_pass_txt2img/#more-examples",
-        "size": 3.97
-      }
-    ]
-  },
-  {
-    "moduleName": "default",
-    "category": "TOOLS & BUILDING",
-    "type": "image",
-    "title": "ControlNet",
-    "templates": [
-      {
-        "name": "controlnet_example",
-        "title": "スクリブルControlNet",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "ControlNetを使用して、スクリブル参照画像でガイドされた画像を生成します。",
-        "thumbnailVariant": "hoverDissolve",
-        "tags": ["ControlNet", "画像"],
-        "models": ["SD1.5"],
-        "date": "2025-03-01",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/controlnet/",
-        "size": 2.97
-      },
-      {
-        "name": "2_pass_pose_worship",
-        "title": "ポーズControlNet 2パス",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "ControlNetを使用して、ポーズ参照でガイドされた画像を生成します。",
-        "thumbnailVariant": "hoverDissolve",
-        "tags": ["ControlNet", "画像"],
-        "models": ["SD1.5"],
-        "date": "2025-03-01",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/controlnet/#pose-controlnet",
-        "size": 0.98
-      },
-      {
-        "name": "depth_controlnet",
-        "title": "深度ControlNet",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "ControlNetを使用して、深度情報でガイドされた画像を生成します。",
-        "thumbnailVariant": "hoverDissolve",
-        "tags": ["ControlNet", "画像"],
-        "models": ["SD1.5"],
-        "date": "2025-03-01",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/controlnet/#t2i-adapter-vs-controlnets",
-        "size": 0.67
-      },
-      {
-        "name": "depth_t2i_adapter",
-        "title": "深度T2Iアダプター",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "T2Iアダプターを使用して、深度情報でガイドされた画像を生成します。",
-        "thumbnailVariant": "hoverDissolve",
-        "tags": ["T2Iアダプター", "画像"],
-        "models": ["SD1.5"],
-        "date": "2025-03-01",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/controlnet/#t2i-adapter-vs-controlnets"
-      },
-      {
-        "name": "mixing_controlnets",
-        "title": "ControlNet混合",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "複数のControlNetモデルを組み合わせて画像を生成します。",
-        "thumbnailVariant": "hoverDissolve",
-        "tags": ["ControlNet", "画像"],
-        "models": ["SD1.5"],
-        "date": "2025-03-01",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/controlnet/#mixing-controlnets",
-        "size": 1.66
-      }
-    ]
-  },
-  {
-    "moduleName": "default",
-    "category": "TOOLS & BUILDING",
-    "type": "image",
-    "title": "エリア構成",
-    "templates": [
-      {
-        "name": "area_composition",
-        "title": "エリア構成",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "定義されたエリアで構成を制御して画像を生成します。",
-        "tags": ["エリア構成", "画像"],
-        "models": ["SD1.5"],
-        "date": "2025-03-01",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/area_composition/",
-        "size": 2.3
-      },
-      {
-        "name": "area_composition_square_area_for_subject",
-        "title": "エリア構成主題用正方形エリア",
-        "mediaType": "image",
-        "mediaSubtype": "webp",
-        "description": "エリア構成を使用して、一貫した主題配置で画像を生成します。",
-        "tags": ["エリア構成", "画像"],
-        "models": ["SD1.5"],
-        "date": "2025-03-01",
-        "tutorialUrl": "https://comfyanonymous.github.io/ComfyUI_examples/area_composition/#increasing-consistency-of-images-with-area-composition",
-        "size": 2.3
+        "tutorialUrl": "",
+        "OpenSource": false
       }
     ]
   }
