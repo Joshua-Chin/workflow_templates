@@ -255,9 +255,9 @@
         "title": "Chroma1 Radiance text to image",
         "mediaType": "image",
         "mediaSubtype": "webp",
-        "description": "Chroma1 Radiance - enhanced Flux model with improved image quality and better prompt understanding for stunning text-to-image generation.",
+        "description": "Chroma1-Radiance works directly with image pixels instead of compressed latents, delivering higher quality images with reduced artifacts and distortion.",
         "tags": ["Text to Image", "Image"],
-        "models": ["Chroma1 Radiance", "Flux"],
+        "models": ["Chroma1 Radiance"],
         "date": "2025-09-18",
         "size": 21.69
       },
@@ -284,6 +284,18 @@
         "models": ["Flux"],
         "date": "2025-06-26",
         "size": 16.43
+      },
+      {
+        "name": "image_flux.1_fill_dev_OneReward",
+        "title": "Flux Kontext Dev Image Edit",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "thumbnailVariant": "compareSlider",
+        "description": "Supports various tasks such as image inpainting, outpainting, and object removal",
+        "tags": ["Inpainting", "Outpainting"],
+        "models": ["Flux"],
+        "date": "2025-09-21",
+        "size": 27.01
       },
       {
         "name": "flux_dev_checkpoint_example",
@@ -764,6 +776,18 @@
         "size": 35.42
       },
       {
+        "name": "video_wan2_2_14B_animate",
+        "title": "Wan2.2 Animate, character animation and replacement",
+        "description": "Unified character animation and replacement framework with precise motion and expression replication.",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "tutorialUrl": "https://docs.comfy.org/tutorials/video/wan/wan2-2-animate",
+        "tags": ["Video", "Image to Video"],
+        "models": ["Wan2.2"],
+        "date": "2025-09-22",
+        "size": 25.535
+      },
+      {
         "name": "video_wan2_2_14B_s2v",
         "title": "Wan2.2-S2V Audio-Driven Video Generation",
         "description": "Transform static images and audio into dynamic videos with perfect synchronization and minute-level generation.",
@@ -772,7 +796,19 @@
         "tutorialUrl": "https://docs.comfy.org/tutorials/video/wan/wan2-2-s2v",
         "tags": ["Video"],
         "models": ["Wan2.2"],
-        "date": "2025-08-02"
+        "date": "2025-08-02",
+        "size": 23.52
+      },
+      {
+        "name": "video_humo",
+        "title": "HoMO Video Generation",
+        "description": "Generate videos basic on audio, image, and text, keep the character's lip sync.",
+        "mediaType": "image",
+        "mediaSubtype": "webp",
+        "tags": ["Video"],
+        "models": ["HoMO"],
+        "date": "2025-09-21",
+        "size": 25.98
       },
       {
         "name": "video_wan2_2_14B_fun_inpaint",
