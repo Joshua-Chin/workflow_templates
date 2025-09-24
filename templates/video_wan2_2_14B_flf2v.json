@@ -49,7 +49,9 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -102,7 +104,9 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -154,7 +158,9 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -210,7 +216,9 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -262,7 +270,9 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -314,7 +324,9 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -364,7 +376,9 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -415,7 +429,9 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -467,7 +483,9 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -519,7 +537,9 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -573,7 +593,9 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -623,7 +645,9 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -723,7 +747,9 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -790,7 +816,9 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -854,7 +882,9 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": []
@@ -907,7 +937,9 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -971,7 +1003,9 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -1006,7 +1040,9 @@
       "title": "Video Size",
       "properties": {
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -1059,7 +1095,9 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -1112,7 +1150,9 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -1164,7 +1204,9 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -1220,7 +1262,9 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": []
@@ -1268,7 +1312,9 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -1327,7 +1373,9 @@
           "widget_ue_connectable": {
             "lora_name": true,
             "strength_model": true
-          }
+          },
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -1387,7 +1435,9 @@
           "widget_ue_connectable": {
             "lora_name": true,
             "strength_model": true
-          }
+          },
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -1438,7 +1488,9 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -1502,7 +1554,9 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -1575,7 +1629,9 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -1625,7 +1681,9 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -1679,7 +1737,9 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -1778,7 +1838,9 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -1787,87 +1849,6 @@
         81,
         1
       ]
-    },
-    {
-      "id": 93,
-      "type": "MarkdownNote",
-      "pos": [
-        -510,
-        450
-      ],
-      "size": [
-        490,
-        180
-      ],
-      "flags": {},
-      "order": 11,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "VRAM Usage",
-      "properties": {
-        "widget_ue_connectable": {}
-      },
-      "widgets_values": [
-        "## GPU:RTX4090D 24GB\n\n| Model            | Size |VRAM Usage | 1st Generation | 2nd Generation |\n|---------------------|-------|-----------|---------------|-----------------|\n| fp8_scaled               |640*640| 84%               | ≈  536s              | ≈ 513s                   |\n| fp8_scaled +  4steps LoRA  | 640*640  | 89%                | ≈ 108s               | ≈ 71s                   |"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 94,
-      "type": "MarkdownNote",
-      "pos": [
-        -500,
-        -160
-      ],
-      "size": [
-        480,
-        550
-      ],
-      "flags": {},
-      "order": 12,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Model Links",
-      "properties": {
-        "ue_properties": {
-          "widget_ue_connectable": {}
-        }
-      },
-      "widgets_values": [
-        "[Tutorial](https://docs.comfy.org/tutorials/video/wan/wan2_2\n) | [教程](https://docs.comfy.org/zh-CN/tutorials/video/wan/wan2_2\n)\n\n**Diffusion Model**       \n- [wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors)\n- [wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors)\n\n**LoRA**\n\n- [wan2.2_t2v_lightx2v_4steps_lora_v1.1_high_noise.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_t2v_lightx2v_4steps_lora_v1.1_high_noise.safetensors)\n- [wan2.2_t2v_lightx2v_4steps_lora_v1.1_low_noise.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_t2v_lightx2v_4steps_lora_v1.1_low_noise.safetensors)\n\n**VAE**\n- [wan_2.1_vae.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors)\n\n**Text Encoder**   \n- [umt5_xxl_fp8_e4m3fn_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors)\n\n\nFile save location\n\n```\nComfyUI/\n├───📂 models/\n│   ├───📂 diffusion_models/\n│   │   ├─── wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors\n│   │   └─── wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors\n│   ├───📂 loras/\n│   │   ├───wan2.2_t2v_lightx2v_4steps_lora_v1.1_low_noise.safetensors\n│   │   └───wan2.2_t2v_lightx2v_4steps_lora_v1.1_high_noise.safetensors\n│   ├───📂 text_encoders/\n│   │   └─── umt5_xxl_fp8_e4m3fn_scaled.safetensors \n│   └───📂 vae/\n│       └── wan_2.1_vae.safetensors\n```\n"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 95,
-      "type": "MarkdownNote",
-      "pos": [
-        -370,
-        1460
-      ],
-      "size": [
-        350,
-        150
-      ],
-      "flags": {},
-      "order": 13,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "properties": {
-        "ue_properties": {
-          "widget_ue_connectable": {}
-        }
-      },
-      "widgets_values": [
-        "1. Box-select then use Ctrl + B to enable\n2. If you don't want to run both groups simultaneously, don't forget to use **Ctrl + B** to disable the **fp8_scaled + 4steps LoRA** group after enabling the **fp8_scaled** group, or try the [partial - execution](https://docs.comfy.org/interface/features/partial-execution) feature."
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
     },
     {
       "id": 6,
@@ -1913,7 +1894,9 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -1921,30 +1904,6 @@
       ],
       "color": "#232",
       "bgcolor": "#353"
-    },
-    {
-      "id": 96,
-      "type": "Note",
-      "pos": [
-        10,
-        -310
-      ],
-      "size": [
-        360,
-        100
-      ],
-      "flags": {},
-      "order": 14,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "About 4 Steps LoRA",
-      "properties": {},
-      "widgets_values": [
-        "Using the Wan2.2 Lighting LoRA will result in the loss of video dynamics, but it will reduce the generation time. This template provides two workflows, and you can enable one as needed."
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
     },
     {
       "id": 62,
@@ -1958,7 +1917,7 @@
         314.00006103515625
       ],
       "flags": {},
-      "order": 15,
+      "order": 11,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1989,7 +1948,9 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -2009,7 +1970,7 @@
         314.00006103515625
       ],
       "flags": {},
-      "order": 16,
+      "order": 12,
       "mode": 4,
       "inputs": [],
       "outputs": [
@@ -2040,41 +2001,15 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
         "Qwen-Image_00002_.png",
         "image"
       ]
-    },
-    {
-      "id": 70,
-      "type": "Note",
-      "pos": [
-        890,
-        1160
-      ],
-      "size": [
-        340,
-        120
-      ],
-      "flags": {},
-      "order": 17,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Video Size",
-      "properties": {
-        "ue_properties": {
-          "widget_ue_connectable": {}
-        }
-      },
-      "widgets_values": [
-        "By default, we set the video to a smaller size for users with low VRAM. If you have enough VRAM, you can change the size"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
     },
     {
       "id": 83,
@@ -2110,7 +2045,9 @@
         "secondTabOffset": 80,
         "secondTabWidth": 65,
         "ue_properties": {
-          "widget_ue_connectable": {}
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
         }
       },
       "widgets_values": [
@@ -2118,6 +2055,155 @@
         "auto",
         "auto"
       ]
+    },
+    {
+      "id": 94,
+      "type": "MarkdownNote",
+      "pos": [
+        -500,
+        -160
+      ],
+      "size": [
+        480,
+        550
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Note: Model Links",
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "[Tutorial](https://docs.comfy.org/tutorials/video/wan/wan2_2\n) | [教程](https://docs.comfy.org/zh-CN/tutorials/video/wan/wan2_2\n)\n\n**Diffusion Model**\n- [wan2.2_i2v_high_noise_14B_fp16.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_high_noise_14B_fp16.safetensors)\n- [wan2.2_i2v_low_noise_14B_fp16.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_i2v_low_noise_14B_fp16.safetensors)\n\n**LoRA**\n- [wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors)\n- [wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors)\n\n**VAE**\n- [wan_2.1_vae.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors)\n\n**Text Encoder**   \n- [umt5_xxl_fp8_e4m3fn_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors)\n\n\nFile save location\n\n```\nComfyUI/\n├───📂 models/\n│   ├───📂 diffusion_models/\n│   │   ├─── wan2.2_i2v_low_noise_14B_fp16.safetensors\n│   │   └─── wan2.2_i2v_high_noise_14B_fp16.safetensors\n│   ├───📂 loras/\n│   │   ├─── wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors\n│   │   └─── wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors\n│   ├───📂 text_encoders/\n│   │   └─── umt5_xxl_fp8_e4m3fn_scaled.safetensors \n│   └───📂 vae/\n│       └── wan_2.1_vae.safetensors\n```\n"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 96,
+      "type": "Note",
+      "pos": [
+        10,
+        -310
+      ],
+      "size": [
+        360,
+        100
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Note: About 4 Steps LoRA",
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "Using the Wan2.2 Lighting LoRA will result in the loss of video dynamics, but it will reduce the generation time. This template provides two workflows, and you can enable one as needed."
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 93,
+      "type": "MarkdownNote",
+      "pos": [
+        -510,
+        450
+      ],
+      "size": [
+        490,
+        180
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Note: VRAM Usage",
+      "properties": {
+        "ue_properties": {
+          "version": "7.1",
+          "widget_ue_connectable": {},
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "## GPU:RTX4090D 24GB\n\n| Model            | Size |VRAM Usage | 1st Generation | 2nd Generation |\n|---------------------|-------|-----------|---------------|-----------------|\n| fp8_scaled               |640*640| 84%               | ≈  536s              | ≈ 513s                   |\n| fp8_scaled +  4steps LoRA  | 640*640  | 89%                | ≈ 108s               | ≈ 71s                   |"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 70,
+      "type": "Note",
+      "pos": [
+        890,
+        1160
+      ],
+      "size": [
+        340,
+        120
+      ],
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Note: Video Size",
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "By default, we set the video to a smaller size for users with low VRAM. If you have enough VRAM, you can change the size"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 95,
+      "type": "MarkdownNote",
+      "pos": [
+        -370,
+        1460
+      ],
+      "size": [
+        350,
+        150
+      ],
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.1",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "1. Box-select then use Ctrl + B to enable\n2. If you don't want to run both groups simultaneously, don't forget to use **Ctrl + B** to disable the **fp8_scaled + 4steps LoRA** group after enabling the **fp8_scaled** group, or try the [partial - execution](https://docs.comfy.org/interface/features/partial-execution) feature."
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
     }
   ],
   "links": [
@@ -2635,13 +2721,13 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.2673486306414057,
+      "scale": 0.21562065691373844,
       "offset": [
-        2543.662210727303,
-        861.8484090479735
+        1805.7089050156264,
+        1126.7554235947312
       ]
     },
-    "frontendVersion": "1.24.4",
+    "frontendVersion": "1.26.15",
     "VHS_latentpreview": false,
     "VHS_latentpreviewrate": 0,
     "VHS_MetadataImage": true,
